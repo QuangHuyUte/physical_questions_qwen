@@ -58,7 +58,7 @@ dist/
 /result/
 /kaggle_api_package_v1/
 /EXACT2026_submission_ready/
-EXACT2026_hybrid_v2_final_20260614_130551/kaggle_api_package_hybrid_v2/
+hybrid_v2_final_package/kaggle_api_package_hybrid_v2/
 
 # Secrets/runtime URLs
 auth.json

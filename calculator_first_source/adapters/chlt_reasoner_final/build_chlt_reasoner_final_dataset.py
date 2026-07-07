@@ -12,7 +12,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[2]
 WORKSPACE = ROOT.parent
 OUT_DIR = Path(__file__).resolve().parent / "dataset"
-SOURCE_CSV = WORKSPACE / "kaggle_api_package_v1" / "data" / "verified_golden_expanded.csv"
+SOURCE_CSV = WORKSPACE / "current_submission_package" / "physics_api_package" / "data" / "verified_golden_expanded.csv"
 SEED_DIR = ROOT / "adapters" / "chlt_reasoner" / "dataset"
 
 SYSTEM_PROMPT = (
