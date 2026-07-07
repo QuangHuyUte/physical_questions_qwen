@@ -1,0 +1,11 @@
+{
+  "name": "question_router_output",
+  "required": ["route", "reason", "confidence"],
+  "forbidden": ["answer", "python_code"],
+  "properties": {
+    "route": "numeric_calculator|conceptual_chlt|type1_other|unknown",
+    "reason": "string",
+    "confidence": "number"
+  }
+}
+

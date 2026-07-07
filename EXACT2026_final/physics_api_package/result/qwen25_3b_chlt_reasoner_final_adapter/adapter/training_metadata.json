@@ -1,0 +1,22 @@
+{
+  "base_model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter_purpose": "chlt_reasoner_final",
+  "train_rows": 334,
+  "valid_rows": 73,
+  "max_seq_length": 1536,
+  "epochs": 3,
+  "learning_rate": 0.00015,
+  "required_output_keys": [
+    "answer",
+    "answer_type",
+    "concept",
+    "confidence",
+    "evidence",
+    "question_kind",
+    "topic"
+  ],
+  "forbidden_output_keys": [
+    "python_code"
+  ],
+  "saved_at": "2026-06-14 04:39:36"
+}

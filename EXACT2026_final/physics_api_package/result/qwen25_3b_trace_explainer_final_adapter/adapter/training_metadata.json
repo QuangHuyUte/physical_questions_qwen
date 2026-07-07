@@ -1,0 +1,19 @@
+{
+  "base_model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter_purpose": "trace_explainer_final",
+  "train_rows": 1196,
+  "valid_rows": 163,
+  "max_seq_length": 1536,
+  "epochs": 3,
+  "learning_rate": 0.00015,
+  "required_output_keys": [
+    "explanation"
+  ],
+  "forbidden_output_keys": [
+    "answer",
+    "final_result",
+    "python_code",
+    "unit"
+  ],
+  "saved_at": "2026-06-14 05:13:21"
+}

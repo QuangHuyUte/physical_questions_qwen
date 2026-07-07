@@ -1,0 +1,29 @@
+{
+  "base_model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter_name": "qwen25_3b_numeric_parser_final_adapter",
+  "adapter_purpose": "numeric_parser_final",
+  "dataset_rows": {
+    "total": 1663,
+    "train": 1443,
+    "valid": 220
+  },
+  "expected_output_keys": [
+    "question_kind",
+    "topic",
+    "target",
+    "givens",
+    "constraints",
+    "formula_candidates",
+    "confidence"
+  ],
+  "forbidden_output_keys": [
+    "answer",
+    "cot",
+    "final_result",
+    "golden_code",
+    "python_code",
+    "unit_answer"
+  ],
+  "copied_generation_files": [],
+  "saved_at": "2026-06-14 05:58:57"
+}

@@ -1,0 +1,68 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local/editor
+.vscode/
+.idea/
+*.log
+*.tmp
+*.bak
+Thumbs.db
+Desktop.ini
+
+# Codex/local agent state
+.agents/
+.codex/
+CLEANUP_PLAN_*.md
+
+# Model weights and training checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+optimizer.pt
+scheduler.pt
+scaler.pt
+rng_state.pth
+checkpoints/
+checkpoint-*/
+**/checkpoints/
+**/checkpoint-*/
+
+# Packaged archives and generated submission bundles
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+
+# Generated runtime/build artifacts
+__pycache__/
+*.egg-info/
+build/
+dist/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Large/duplicated legacy outputs kept locally only
+/result/
+/kaggle_api_package_v1/
+/EXACT2026_submission_ready/
+EXACT2026_hybrid_v2_final_20260614_130551/kaggle_api_package_hybrid_v2/
+
+# Secrets/runtime URLs
+auth.json
+.env
+.env.*
+urls.txt
+**/urls.txt

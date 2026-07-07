@@ -1,0 +1,148 @@
+id,question,btc_answer,target_unit,model_calculated_answer,is_correct,error_message,retrieved_examples_id,generated_code
+THCB124,The measured voltage is 5.00 ± 0.10 V. Calculate the percentage relative error.,2.0,%,2.0,True,,"THCB129, THCB105","# Calculate percentage relative error
+absolute_error = 0.10
+true_value = 5.00
+
+# Multiply by 100 to convert the ratio into a percentage value
+final_result = (absolute_error / true_value) * 100
+print(final_result)"
+LD111,"Two electric charges, q1 = -1 × 10⁻⁸ C and q2 = -6 × 10⁻⁸ C, are placed at points A and B, 14 cm apart in air. A third electric charge, q3 = -7 × 10⁻⁸ C, is placed at point C, such that the distance from C to A is 6 cm and the distance from C to B is 8 cm. Calculate the net electric force acting on q3.",4.16*10^-3,N,0.0041562499999999985,False,,"LD102, LD001","# [REASONING]
+# 1. Extract values from the problem statement.
+# 2. Use Coulomb's law to calculate individual forces.
+# 3. Apply the Law of Cosines to find the angle between the forces.
+# 4. Calculate the resultant net force using vector addition.
+k = 9e9
+q1 = -1e-8; q2 = -6e-8; q3 = -7e-8
+rAC = 0.06; rBC = 0.08; rAB = 0.14
+
+# Calculate individual electrostatic forces (Attractive forces)
+F1 = k * q1 * q3 / (rAC**2)
+F2 = k * q2 * q3 / (rBC**2)
+
+# Apply the Law of Cosines in triangle ABC to find the angle at vertex C
+cos_C = (rAC**2 + rBC**2 - rAB**2) / (2 * rAC * rBC)
+
+# Calculate the resultant net vector force at point C
+final_result = math.sqrt(F1**2 + F2**2 + 2*F1*F2*cos_C)"
+CH094,"What inductance L is required for a circuit to resonate at f=250 Hz, given a 10 μF capacitor?",0.0405,H,0.04,False,,"CH100, CH085","import math
+
+# Given values
+f = 250  # frequency in Hz
+C = 10e-6  # capacitance in Farads
+pi_sq = 10  # pi^2 = 10 according to Vietnam physics convention
+
+# Resonance formula: f = 1 / (2 * pi * sqrt(L * C))
+# Squaring both sides: f**2 = 1 / (4 * pi_sq * L * C)
+# Solving for L: L = 1 / (4 * pi_sq * C * f**2)
+
+L_henry = 1 / (4 * pi_sq * C * f**2)
+
+final_result = L_henry"
+CH231,"The circuit AB consists of segment MB, which contains a resistor R2 = 50 Ω in series with an inductor L.
+Given the condition LCω² = 1, and the voltage across AM (uAM) is in quadrature (90 degrees out of phase) with the voltage across MB (uMB).
+When a voltage U = 100 V is applied across terminals AB, the total power dissipated is 100.0 W.
+Determine R1.",50.0,Ω,50.0,True,,"CH232, CH218","# Given values
+U = 100  # Total voltage
+P = 100.0  # Total power
+R2 = 50  # Resistance of segment MB
+
+# Step 1: The condition LCω² = 1 implies the circuit is at resonance.
+# At resonance, the total impedance is purely resistive: Z = R1 + R2.
+
+# Step 2: Total power formula:
+# P = U**2 / (R1 + R2)
+
+# Step 3: Solve for R1
+R1 = (U**2 / P) - R2
+
+final_result = R1"
+LD060,"Two electric charges, q1 = 5 × 10^-9 C and q2 = –5 × 10^-9 C, are placed 10 cm apart in a vacuum. What is the magnitude of the electric field strength at the midpoint of the line connecting the two charges?",36000,V/m,0.0,False,,"DT098, LD382","# [REASONING]
+# 1. Analyze the physical system based on the given parameters.
+# 2. Apply relevant formulas (e.g., Coulomb's Law, Faraday's Law).
+# 3. Format the result exactly as the theoretical expectation.
+# [END REASONING]
+
+import math
+
+q1 = 5e-9  # Charge q1 in Coulombs
+q2 = -5e-9 # Charge q2 in Coulombs
+r = 0.1   # Distance between charges in meters (10 cm)
+d = r / 2 # Distance from each charge to the midpoint in meters
+
+# Calculate electric field strength at the midpoint due to each charge
+E1 = k * q1 / (d**2)  # Coulomb's Law: E = k*|q|/r^2
+E2 = k * q2 / (d**2)
+
+# Since the charges are equal in magnitude but opposite in sign, their electric fields at the midpoint will add up
+E_total = E1 + E2
+
+k = 8.99e9 # Coulomb's constant in N m^2/C^2
+
+final_result = math.fabs(E_total) * 1000 # Convert to V/m (1 N/C = 1 V/m)"
+CH104,"Given R=25Ω. At a frequency f=120Hz, the circuit is in resonance, and the current I=5A. When the frequency is doubled, the current becomes I=2.5A. What is ZL (the inductive reactance at the initial frequency of 120Hz)?",28.87,Ω,,False,math domain error,"DDT334, CH204","import math
+
+# Given values
+R = 25  # Resistance in Ohms
+f = 120  # Initial frequency in Hertz
+I_initial = 5  # Initial current in Amperes
+I_final = 2.5  # Final current in Amperes
+
+# Calculate the initial impedance magnitude Z
+Z_initial = R * (I_final / I_initial)
+
+# At resonance, the impedance is purely resistive, so Z = R
+# The resonant frequency ω0 is given by ω0 = 1 / sqrt(LC)
+# The inductive reactance at the initial frequency X_L can be found using the formula:
+# X_L = sqrt(Z^2 - R^2)
+
+X_L = math.sqrt(Z_initial**2 - R**2)
+
+final_result = X_L
+final_result"
+NL108,A capacitor has a capacitance of 12 μF and a voltage of 70 V. Calculate the stored electric field energy (mJ).,29.40,mJ,29.4,True,,"NL029, NL129","# Given values
+C = 12e-6  # Capacitance in Farads
+U = 70     # Voltage in Volts
+
+# Calculate the energy stored in Joules
+E_joules = 0.5 * C * U**2
+
+# Convert Joules to millijoules
+E_mjoules = E_joules * 1000
+
+final_result = E_mjoules
+final_result"
+THCB111,The measured value is 30.0 ± 0.2 cm. Calculate the percentage relative error.,0.67,%,0.6666666666666667,True,,"THCB113, THCB089","measured_value = 30.0
+absolute_error = 0.2
+
+# Calculate the relative error
+relative_error = absolute_error / measured_value
+
+# Convert the relative error to a percentage
+percentage_error = relative_error * 100
+
+final_result = percentage_error
+print(f""The percentage relative error is {final_result}%."")"
+TD013,A parallel-plate capacitor with a capacitance of 7.0 nF is filled with a dielectric. The area of each plate is 15 cm² and the distance between the plates is 10⁻⁵ m. What is the dielectric constant of the dielectric?,5.28,,5.2706874482343204,True,,"TD098, TD089","import math
+
+# Given values
+C = 7.0e-9  # Capacitance in farads
+A = 15e-4  # Plate area in square meters
+d = 10**-5  # Plate separation in meters
+epsilon_0 = 8.854e-12  # Permittivity of free space in F/m
+
+# Calculate the dielectric constant
+epsilon_r = (C * d) / (epsilon_0 * A)
+final_result = epsilon_r
+epsilon_r, final_result"
+TD399,"A parallel-plate capacitor is fully charged and then disconnected from its power source. Subsequently, it is placed in an environment where the permittivity (ε) increases by a factor of 3. Calculate the new energy stored in the capacitor if the initial energy was 1 μJ.",0.33,μJ,3e-06,False,,"TD167, TD176","# Given values
+initial_energy = 1e-6  # Initial energy in joules (μJ to J)
+
+# Calculate the new permittivity factor
+new_permittivity_factor = 3
+
+# Since the energy stored in a capacitor is proportional to the permittivity,
+# the new energy is simply the initial energy multiplied by the new permittivity factor.
+new_energy = initial_energy * new_permittivity_factor
+
+final_result = new_energy
+print(f""The new energy stored in the capacitor is {final_result:.2f} μJ."")"

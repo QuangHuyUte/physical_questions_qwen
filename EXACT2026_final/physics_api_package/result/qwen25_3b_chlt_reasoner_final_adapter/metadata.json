@@ -1,0 +1,27 @@
+{
+  "base_model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter_name": "qwen25_3b_chlt_reasoner_final_adapter",
+  "adapter_purpose": "chlt_reasoner_final",
+  "dataset_rows": {
+    "total": 407,
+    "train": 334,
+    "valid": 73
+  },
+  "expected_output_keys": [
+    "question_kind",
+    "topic",
+    "concept",
+    "answer_type",
+    "answer",
+    "evidence",
+    "confidence"
+  ],
+  "forbidden_output_keys": [
+    "python_code",
+    "final_result"
+  ],
+  "copied_generation_files": [
+    "generation_results/chlt_reasoner_quick_generation.csv"
+  ],
+  "saved_at": "2026-06-14 05:03:23"
+}

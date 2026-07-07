@@ -1,0 +1,48 @@
+{
+  "total_rows": 407,
+  "train_rows": 334,
+  "valid_rows": 73,
+  "verified_rows": 80,
+  "seed_rows": 4,
+  "synthetic_rows": 74,
+  "concept_bank_rows": 249,
+  "rejected_rows": 0,
+  "source_counts": {
+    "verified_golden_expanded_chlt": 80,
+    "synthetic_verified_rlc_resonance": 64,
+    "synthetic_curated_chlt_concept_bank": 249,
+    "synthetic_verified_conceptual": 10,
+    "seed_conceptual": 4
+  },
+  "topic_counts": {
+    "ac_resonance": 177,
+    "LC_oscillation": 26,
+    "electrostatics_field": 32,
+    "measurement_error": 27,
+    "induction": 43,
+    "electrostatics_force": 15,
+    "capacitor": 44,
+    "circuit_power": 19,
+    "circuit_resistance": 24
+  },
+  "answer_counts": {
+    "No": 136,
+    "Yes": 226,
+    "The circuit is inductive.": 3,
+    "The capacitance decreases.": 3,
+    "At the midpoint between the charges.": 4,
+    "Volt.": 3,
+    "The voltage increases.": 5,
+    "B. The resistance only": 2,
+    "It is connected in parallel.": 3,
+    "Weber.": 3,
+    "The circuit is capacitive.": 3,
+    "C. It opposes the flux change": 2,
+    "They are added as vectors.": 4,
+    "It is equal to the resistance.": 4,
+    "It is connected in series.": 3,
+    "A. It increases": 2,
+    "The inductive reactance equals the capacitive reactance.": 1
+  },
+  "policy": "CHLT final uses verified CHLT source rows, seed conceptual rows, formula-verified synthetic RLC rows, and curated concept-bank augmentation. Output is JSON-only conceptual answer with evidence; no Python code."
+}

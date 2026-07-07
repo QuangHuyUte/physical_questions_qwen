@@ -1,0 +1,22 @@
+{
+  "base_model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter_name": "qwen25_3b_trace_explainer_final_adapter",
+  "adapter_purpose": "trace_explainer_final",
+  "dataset_rows": {
+    "total": 1359,
+    "train": 1196,
+    "valid": 163
+  },
+  "expected_output_keys": [
+    "explanation"
+  ],
+  "forbidden_behavior": [
+    "do_not_change_answer",
+    "do_not_change_unit",
+    "do_not_change_formula",
+    "do_not_change_calculation",
+    "do_not_output_python_code"
+  ],
+  "copied_generation_files": [],
+  "saved_at": "2026-06-14 05:13:50"
+}

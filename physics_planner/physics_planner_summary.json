@@ -1,0 +1,36 @@
+{
+  "dataset_version": "v2_no_locked_answer_no_constant_code",
+  "source": "D:\\EXACTS2026\\Retrieve new data v2\\verified_golden_official_safe.csv",
+  "rows_read": 1660,
+  "accepted": 933,
+  "train": 858,
+  "valid": 75,
+  "rejected": 727,
+  "valid_ratio": 0.08,
+  "seed": 42,
+  "accepted_by_topic": {
+    "LC_oscillation": 98,
+    "ac_resonance": 102,
+    "capacitor": 142,
+    "circuit_power": 86,
+    "circuit_resistance": 80,
+    "electrostatics_field": 106,
+    "electrostatics_force": 36,
+    "general_physics": 91,
+    "induction": 115,
+    "measurement_error": 77
+  },
+  "accepted_by_prefix": {
+    "CH": 205,
+    "DDT": 145,
+    "DT": 85,
+    "LD": 133,
+    "NL": 119,
+    "TD": 85,
+    "THCB": 161
+  },
+  "rejected_by_reason": {
+    "constant_answer_code": 515,
+    "non_numeric_or_unitless": 212
+  }
+}

@@ -1,0 +1,2243 @@
+[
+  {
+    "id": "CHLTF_BANK_0000",
+    "topic": "ac_resonance",
+    "concept": "series_rlc_resonance_condition",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "In a series RLC circuit, does resonance occur when the inductive reactance equals the capacitive reactance?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0001",
+    "topic": "ac_resonance",
+    "concept": "series_rlc_resonance_condition",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "If XL and XC have the same magnitude in a series AC circuit, should the circuit be considered resonant?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0002",
+    "topic": "ac_resonance",
+    "concept": "series_rlc_resonance_condition",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: a series RLC branch resonates when XL = XC.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0003",
+    "topic": "ac_resonance",
+    "concept": "impedance_at_resonance",
+    "answer_type": "text",
+    "answer": "It is equal to the resistance.",
+    "question": "What does the total impedance become at resonance in a series RLC circuit?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0004",
+    "topic": "ac_resonance",
+    "concept": "impedance_at_resonance",
+    "answer_type": "text",
+    "answer": "It is equal to the resistance.",
+    "question": "When an RLC series circuit is resonant, what part of the impedance remains?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0005",
+    "topic": "ac_resonance",
+    "concept": "impedance_at_resonance",
+    "answer_type": "text",
+    "answer": "It is equal to the resistance.",
+    "question": "At resonance, is the total impedance reactive or simply resistive?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0006",
+    "topic": "ac_resonance",
+    "concept": "power_factor_at_resonance",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "At resonance in a series RLC circuit, is the power factor equal to one?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0007",
+    "topic": "ac_resonance",
+    "concept": "power_factor_at_resonance",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does a resonant series AC circuit have voltage and current in phase?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0008",
+    "topic": "ac_resonance",
+    "concept": "power_factor_at_resonance",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: the phase angle is zero at series resonance.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0009",
+    "topic": "ac_resonance",
+    "concept": "current_maximum_at_resonance",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does the current reach a maximum at resonance for a fixed-voltage series RLC circuit?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0010",
+    "topic": "ac_resonance",
+    "concept": "current_maximum_at_resonance",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "In a series RLC circuit, why is the current largest at resonance?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0011",
+    "topic": "ac_resonance",
+    "concept": "current_maximum_at_resonance",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: the RMS current is maximized at series resonance if the source voltage is fixed.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0012",
+    "topic": "ac_resonance",
+    "concept": "resonant_frequency_independent_of_R",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Does changing the resistor change the ideal resonant frequency of a series RLC circuit?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0013",
+    "topic": "ac_resonance",
+    "concept": "resonant_frequency_independent_of_R",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "If only R is changed while L and C stay fixed, should f0 change?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0014",
+    "topic": "ac_resonance",
+    "concept": "resonant_frequency_independent_of_R",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: the ideal resonance frequency depends directly on R.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0015",
+    "topic": "ac_resonance",
+    "concept": "below_resonance_capacitive",
+    "answer_type": "text",
+    "answer": "The circuit is capacitive.",
+    "question": "If a series RLC circuit operates below its resonant frequency, is its net behavior inductive or capacitive?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0016",
+    "topic": "ac_resonance",
+    "concept": "below_resonance_capacitive",
+    "answer_type": "text",
+    "answer": "The circuit is capacitive.",
+    "question": "When f is less than f0 in a series RLC circuit, what kind of reactance dominates?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0017",
+    "topic": "ac_resonance",
+    "concept": "below_resonance_capacitive",
+    "answer_type": "text",
+    "answer": "The circuit is capacitive.",
+    "question": "At frequencies below resonance, does the capacitor or inductor dominate the series RLC reactance?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0018",
+    "topic": "ac_resonance",
+    "concept": "above_resonance_inductive",
+    "answer_type": "text",
+    "answer": "The circuit is inductive.",
+    "question": "If a series RLC circuit is driven above resonance, is the net behavior inductive or capacitive?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0019",
+    "topic": "ac_resonance",
+    "concept": "above_resonance_inductive",
+    "answer_type": "text",
+    "answer": "The circuit is inductive.",
+    "question": "When f is greater than f0 in a series RLC circuit, which reactance dominates?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0020",
+    "topic": "ac_resonance",
+    "concept": "above_resonance_inductive",
+    "answer_type": "text",
+    "answer": "The circuit is inductive.",
+    "question": "At frequencies above resonance, does the circuit behave more like an inductor?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0021",
+    "topic": "ac_resonance",
+    "concept": "resistor_voltage_at_resonance",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "At resonance, is the RMS voltage across the resistor equal to the source RMS voltage in an ideal series RLC circuit?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0022",
+    "topic": "ac_resonance",
+    "concept": "resistor_voltage_at_resonance",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "When UL and UC cancel in a resonant series RLC circuit, does UR match the applied voltage?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0023",
+    "topic": "ac_resonance",
+    "concept": "resistor_voltage_at_resonance",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: at series resonance, the source voltage appears across the resistor as the net RMS voltage.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0024",
+    "topic": "ac_resonance",
+    "concept": "inductor_capacitor_voltage_cancellation",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "At resonance, do the inductor and capacitor voltages cancel in the phasor sum?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0025",
+    "topic": "ac_resonance",
+    "concept": "inductor_capacitor_voltage_cancellation",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "In a resonant series RLC circuit, are UL and UC opposite in phase?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0026",
+    "topic": "ac_resonance",
+    "concept": "inductor_capacitor_voltage_cancellation",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: the reactive voltages cancel each other at resonance.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0027",
+    "topic": "capacitor",
+    "concept": "capacitance_geometry_dependence",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Does the capacitance of an ideal capacitor depend on the voltage connected to it?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0028",
+    "topic": "capacitor",
+    "concept": "capacitance_geometry_dependence",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "If a capacitor is ideal, does raising the voltage change its capacitance?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0029",
+    "topic": "capacitor",
+    "concept": "capacitance_geometry_dependence",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: capacitance is determined by geometry and dielectric, not by voltage.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0030",
+    "topic": "capacitor",
+    "concept": "parallel_capacitors_add",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "For capacitors in parallel, is the equivalent capacitance the sum of the individual capacitances?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0031",
+    "topic": "capacitor",
+    "concept": "parallel_capacitors_add",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "When two capacitors are connected in parallel, do their capacitances add directly?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0032",
+    "topic": "capacitor",
+    "concept": "parallel_capacitors_add",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: C_parallel = C1 + C2 for two capacitors.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0033",
+    "topic": "capacitor",
+    "concept": "series_capacitance_smaller",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Is the equivalent capacitance of capacitors in series smaller than each individual capacitor?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0034",
+    "topic": "capacitor",
+    "concept": "series_capacitance_smaller",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "When capacitors are in series, can the equivalent capacitance be less than the smallest one?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0035",
+    "topic": "capacitor",
+    "concept": "series_capacitance_smaller",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: adding capacitors in series lowers the equivalent capacitance.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0036",
+    "topic": "capacitor",
+    "concept": "dielectric_increases_capacitance",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does inserting a dielectric between capacitor plates increase the capacitance?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0037",
+    "topic": "capacitor",
+    "concept": "dielectric_increases_capacitance",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "If dielectric constant is greater than one, does the capacitance become larger?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0038",
+    "topic": "capacitor",
+    "concept": "dielectric_increases_capacitance",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: a dielectric slab increases the capacitance of a parallel-plate capacitor.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0039",
+    "topic": "capacitor",
+    "concept": "plate_distance_effect",
+    "answer_type": "text",
+    "answer": "The capacitance decreases.",
+    "question": "What happens to a parallel-plate capacitor's capacitance if the plate separation is increased?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0040",
+    "topic": "capacitor",
+    "concept": "plate_distance_effect",
+    "answer_type": "text",
+    "answer": "The capacitance decreases.",
+    "question": "If the distance between plates doubles while area is fixed, does capacitance increase or decrease?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0041",
+    "topic": "capacitor",
+    "concept": "plate_distance_effect",
+    "answer_type": "text",
+    "answer": "The capacitance decreases.",
+    "question": "In a parallel-plate capacitor, how does larger spacing affect C?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0042",
+    "topic": "capacitor",
+    "concept": "isolated_capacitor_voltage_change",
+    "answer_type": "text",
+    "answer": "The voltage increases.",
+    "question": "An isolated charged capacitor has its plate separation increased. What happens to the voltage?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0043",
+    "topic": "capacitor",
+    "concept": "isolated_capacitor_voltage_change",
+    "answer_type": "text",
+    "answer": "The voltage increases.",
+    "question": "If charge is fixed and capacitance decreases, how does the capacitor voltage change?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0044",
+    "topic": "capacitor",
+    "concept": "isolated_capacitor_voltage_change",
+    "answer_type": "text",
+    "answer": "The voltage increases.",
+    "question": "For an isolated capacitor, does voltage rise when C becomes smaller?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0045",
+    "topic": "capacitor",
+    "concept": "battery_connected_voltage_fixed",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "If a capacitor remains connected to an ideal battery, is its voltage fixed by the battery?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0046",
+    "topic": "capacitor",
+    "concept": "battery_connected_voltage_fixed",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "When dielectric is inserted while the battery stays connected, does the voltage remain the battery voltage?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0047",
+    "topic": "capacitor",
+    "concept": "battery_connected_voltage_fixed",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: a connected voltage source holds capacitor voltage constant.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0048",
+    "topic": "capacitor",
+    "concept": "capacitor_energy_formula",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Is the stored energy of a capacitor given by one half C times U squared?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0049",
+    "topic": "capacitor",
+    "concept": "capacitor_energy_formula",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Can capacitor energy be expressed as W = 1/2 C U^2?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0050",
+    "topic": "capacitor",
+    "concept": "capacitor_energy_formula",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: W = 1/2 C U^2 is a capacitor energy relation.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0051",
+    "topic": "induction",
+    "concept": "faraday_flux_change_condition",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "If magnetic flux through a loop is constant, is an induced emf produced?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0052",
+    "topic": "induction",
+    "concept": "faraday_flux_change_condition",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Can a stationary loop in a steady magnetic field have induced emf just because flux exists?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0053",
+    "topic": "induction",
+    "concept": "faraday_flux_change_condition",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: unchanging magnetic flux is enough to induce emf.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0054",
+    "topic": "induction",
+    "concept": "faster_flux_change_larger_emf",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does changing magnetic flux more quickly produce a larger induced emf?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0055",
+    "topic": "induction",
+    "concept": "faster_flux_change_larger_emf",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "If the same flux change happens in less time, is the induced voltage larger?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0056",
+    "topic": "induction",
+    "concept": "faster_flux_change_larger_emf",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: induced emf grows when the flux changes faster.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0057",
+    "topic": "induction",
+    "concept": "lenz_law_opposes_change",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does Lenz's law say the induced current opposes the change that creates it?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0058",
+    "topic": "induction",
+    "concept": "lenz_law_opposes_change",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "When flux through a loop increases, does the induced current act against that increase?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0059",
+    "topic": "induction",
+    "concept": "lenz_law_opposes_change",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: Lenz's law is an opposition rule for induced current direction.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0060",
+    "topic": "induction",
+    "concept": "magnetic_flux_angle_dependence",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does magnetic flux through a flat surface depend on the angle between B and the surface normal?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0061",
+    "topic": "induction",
+    "concept": "magnetic_flux_angle_dependence",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "If a coil is rotated in a magnetic field, can the magnetic flux change?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0062",
+    "topic": "induction",
+    "concept": "magnetic_flux_angle_dependence",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: Phi = B S cos theta includes an angle factor.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0063",
+    "topic": "induction",
+    "concept": "coil_turns_effect",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does increasing the number of turns in a coil increase the induced emf for the same flux change per turn?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0064",
+    "topic": "induction",
+    "concept": "coil_turns_effect",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "If two coils have the same flux change per turn, does the coil with more turns have larger induced emf?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0065",
+    "topic": "induction",
+    "concept": "coil_turns_effect",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: induced emf is proportional to the number of turns.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0066",
+    "topic": "induction",
+    "concept": "solenoid_field_current_dependence",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Inside a long solenoid, does the magnetic field increase when current increases?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0067",
+    "topic": "induction",
+    "concept": "solenoid_field_current_dependence",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Is the magnetic field of an ideal solenoid proportional to current?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0068",
+    "topic": "induction",
+    "concept": "solenoid_field_current_dependence",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: B = mu n I for a long solenoid.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0069",
+    "topic": "induction",
+    "concept": "inductor_energy_current",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Is the magnetic energy stored in an inductor proportional to the square of current?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0070",
+    "topic": "induction",
+    "concept": "inductor_energy_current",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Can inductor energy be written as W = 1/2 L I^2?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0071",
+    "topic": "induction",
+    "concept": "inductor_energy_current",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: an inductor stores energy in its magnetic field.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0072",
+    "topic": "LC_oscillation",
+    "concept": "lc_energy_exchange",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "In an ideal LC circuit, does energy move back and forth between the capacitor and inductor?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0073",
+    "topic": "LC_oscillation",
+    "concept": "lc_energy_exchange",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does an LC oscillator exchange electric-field energy and magnetic-field energy?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0074",
+    "topic": "LC_oscillation",
+    "concept": "lc_energy_exchange",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: total energy is conserved in an ideal LC oscillator.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0075",
+    "topic": "LC_oscillation",
+    "concept": "capacitor_voltage_max_current_zero",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "In an ideal LC circuit, is the current zero when capacitor voltage is maximum?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0076",
+    "topic": "LC_oscillation",
+    "concept": "capacitor_voltage_max_current_zero",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "At maximum capacitor charge in an LC oscillator, does the inductor current vanish?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0077",
+    "topic": "LC_oscillation",
+    "concept": "capacitor_voltage_max_current_zero",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: maximum capacitor voltage occurs when current is zero in ideal LC motion.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0078",
+    "topic": "LC_oscillation",
+    "concept": "current_max_voltage_zero",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "In an ideal LC circuit, is capacitor voltage zero when current is maximum?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0079",
+    "topic": "LC_oscillation",
+    "concept": "current_max_voltage_zero",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "At maximum inductor current, has the capacitor discharged in an ideal LC oscillator?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0080",
+    "topic": "LC_oscillation",
+    "concept": "current_max_voltage_zero",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: maximum current corresponds to zero capacitor voltage in ideal LC oscillation.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0081",
+    "topic": "LC_oscillation",
+    "concept": "lc_frequency_depends_lc",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Does increasing the initial capacitor voltage change the ideal LC oscillation frequency?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0082",
+    "topic": "LC_oscillation",
+    "concept": "lc_frequency_depends_lc",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "For an ideal LC oscillator, does frequency depend on amplitude?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0083",
+    "topic": "LC_oscillation",
+    "concept": "lc_frequency_depends_lc",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: LC frequency is set by L and C rather than the starting voltage.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0084",
+    "topic": "electrostatics_force",
+    "concept": "coulomb_force_sign_direction",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Do two charges with the same sign repel each other?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0085",
+    "topic": "electrostatics_force",
+    "concept": "coulomb_force_sign_direction",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "If two charges have opposite signs, is the electric force attractive?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0086",
+    "topic": "electrostatics_force",
+    "concept": "coulomb_force_sign_direction",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: charge sign determines whether Coulomb force is attractive or repulsive.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0087",
+    "topic": "electrostatics_force",
+    "concept": "coulomb_inverse_square",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does Coulomb force decrease with the square of distance?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0088",
+    "topic": "electrostatics_force",
+    "concept": "coulomb_inverse_square",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "If the distance between two point charges doubles, does the force become one fourth?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0089",
+    "topic": "electrostatics_force",
+    "concept": "coulomb_inverse_square",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: electric force between point charges follows an inverse-square law.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0090",
+    "topic": "electrostatics_field",
+    "concept": "electric_field_direction_positive_test_charge",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Is the electric field direction defined by the force on a positive test charge?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0091",
+    "topic": "electrostatics_field",
+    "concept": "electric_field_direction_positive_test_charge",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does a positive test charge move in the direction of the electric field force?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0092",
+    "topic": "electrostatics_field",
+    "concept": "electric_field_direction_positive_test_charge",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: field direction is based on a positive test charge.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0093",
+    "topic": "electrostatics_field",
+    "concept": "field_superposition_vector",
+    "answer_type": "text",
+    "answer": "They are added as vectors.",
+    "question": "When several charges create electric fields at a point, how are the fields combined?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0094",
+    "topic": "electrostatics_field",
+    "concept": "field_superposition_vector",
+    "answer_type": "text",
+    "answer": "They are added as vectors.",
+    "question": "Are electric fields from different sources added as vectors or ordinary scalars?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0095",
+    "topic": "electrostatics_field",
+    "concept": "field_superposition_vector",
+    "answer_type": "text",
+    "answer": "They are added as vectors.",
+    "question": "In superposition of electric fields, should direction be included?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0096",
+    "topic": "electrostatics_field",
+    "concept": "zero_field_equal_like_charges",
+    "answer_type": "text",
+    "answer": "At the midpoint between the charges.",
+    "question": "Where is the electric field zero between two equal positive point charges?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0097",
+    "topic": "electrostatics_field",
+    "concept": "zero_field_equal_like_charges",
+    "answer_type": "text",
+    "answer": "At the midpoint between the charges.",
+    "question": "For two identical like charges on a line, where do their electric fields cancel?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0098",
+    "topic": "electrostatics_field",
+    "concept": "zero_field_equal_like_charges",
+    "answer_type": "text",
+    "answer": "At the midpoint between the charges.",
+    "question": "Between equal same-sign charges, which point has zero net electric field?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0099",
+    "topic": "electrostatics_field",
+    "concept": "conductor_field_inside_static",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Can a conductor in electrostatic equilibrium have a nonzero electric field inside its material?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0100",
+    "topic": "electrostatics_field",
+    "concept": "conductor_field_inside_static",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Inside a conductor at electrostatic equilibrium, is the electric field present?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0101",
+    "topic": "electrostatics_field",
+    "concept": "conductor_field_inside_static",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: the electrostatic field inside a conductor is generally nonzero.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0102",
+    "topic": "circuit_resistance",
+    "concept": "series_resistors_add",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Do resistors in series add directly?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0103",
+    "topic": "circuit_resistance",
+    "concept": "series_resistors_add",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "For a string of series resistors, is total resistance R1 + R2 + ...?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0104",
+    "topic": "circuit_resistance",
+    "concept": "series_resistors_add",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: equivalent resistance increases when another resistor is added in series.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0105",
+    "topic": "circuit_resistance",
+    "concept": "parallel_resistance_smaller",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Is the equivalent resistance of parallel resistors smaller than the smallest individual resistor?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0106",
+    "topic": "circuit_resistance",
+    "concept": "parallel_resistance_smaller",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does adding a resistor in parallel reduce total resistance?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0107",
+    "topic": "circuit_resistance",
+    "concept": "parallel_resistance_smaller",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: parallel connection lowers equivalent resistance.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0108",
+    "topic": "circuit_power",
+    "concept": "resistor_real_power",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does a resistor consume real power in a circuit?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0109",
+    "topic": "circuit_power",
+    "concept": "resistor_real_power",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Is electrical energy converted to heat in a resistor?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0110",
+    "topic": "circuit_power",
+    "concept": "resistor_real_power",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: P = I squared R describes resistor power.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0111",
+    "topic": "circuit_power",
+    "concept": "ideal_capacitor_average_power",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Does an ideal capacitor consume average real power over a full AC cycle?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0112",
+    "topic": "circuit_power",
+    "concept": "ideal_capacitor_average_power",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "In ideal AC analysis, does a pure capacitor dissipate real power?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0113",
+    "topic": "circuit_power",
+    "concept": "ideal_capacitor_average_power",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: an ideal capacitor has nonzero average power loss.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0114",
+    "topic": "circuit_power",
+    "concept": "ideal_inductor_average_power",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Does an ideal inductor dissipate average real power?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0115",
+    "topic": "circuit_power",
+    "concept": "ideal_inductor_average_power",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "For a pure ideal inductor in AC, is average real power consumed?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0116",
+    "topic": "circuit_power",
+    "concept": "ideal_inductor_average_power",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: an ideal inductor loses real power every cycle.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0117",
+    "topic": "measurement_error",
+    "concept": "relative_error_definition",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Is relative error equal to absolute error divided by the measured value?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0118",
+    "topic": "measurement_error",
+    "concept": "relative_error_definition",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "To express relative error as a percent, do we multiply the ratio by 100 percent?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0119",
+    "topic": "measurement_error",
+    "concept": "relative_error_definition",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: relative error compares the absolute uncertainty with the measured value.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0120",
+    "topic": "measurement_error",
+    "concept": "sum_error_addition_rule",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "When adding measured quantities, are their absolute errors usually added?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0121",
+    "topic": "measurement_error",
+    "concept": "sum_error_addition_rule",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "For A plus B with measurement uncertainties, does the absolute error combine from the absolute errors?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0122",
+    "topic": "measurement_error",
+    "concept": "sum_error_addition_rule",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: absolute errors are used directly for addition and subtraction.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0123",
+    "topic": "measurement_error",
+    "concept": "product_error_relative_rule",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "For a product or quotient of measured quantities, do relative errors add in the standard rule?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0124",
+    "topic": "measurement_error",
+    "concept": "product_error_relative_rule",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "When computing R = U/I, should the relative errors of U and I be combined?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0125",
+    "topic": "measurement_error",
+    "concept": "product_error_relative_rule",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: multiplication and division use relative uncertainty propagation.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0126",
+    "topic": "measurement_error",
+    "concept": "least_count_half_rule",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "For an analog scale, is the absolute reading error often taken as half the least count?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0127",
+    "topic": "measurement_error",
+    "concept": "least_count_half_rule",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Can half of the smallest division be used as a measurement uncertainty convention?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0128",
+    "topic": "measurement_error",
+    "concept": "least_count_half_rule",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: least-count based uncertainty is commonly half a division for analog readings.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0129",
+    "topic": "circuit_resistance",
+    "concept": "current_same_in_series",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "In a series circuit, is the current the same through all components?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0130",
+    "topic": "circuit_resistance",
+    "concept": "current_same_in_series",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "If two resistors are connected in series, do they carry the same current?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0131",
+    "topic": "circuit_resistance",
+    "concept": "current_same_in_series",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: series components share one common current.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0132",
+    "topic": "circuit_resistance",
+    "concept": "voltage_same_in_parallel",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "In a parallel circuit, is the voltage across each branch the same?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0133",
+    "topic": "circuit_resistance",
+    "concept": "voltage_same_in_parallel",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Do parallel components share the same potential difference?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0134",
+    "topic": "circuit_resistance",
+    "concept": "voltage_same_in_parallel",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: branches in parallel have equal voltage.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0135",
+    "topic": "circuit_resistance",
+    "concept": "ammeter_connection",
+    "answer_type": "text",
+    "answer": "It is connected in series.",
+    "question": "How should an ammeter be connected to measure current through a resistor?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0136",
+    "topic": "circuit_resistance",
+    "concept": "ammeter_connection",
+    "answer_type": "text",
+    "answer": "It is connected in series.",
+    "question": "Should an ammeter be placed in series or parallel with the component being measured?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0137",
+    "topic": "circuit_resistance",
+    "concept": "ammeter_connection",
+    "answer_type": "text",
+    "answer": "It is connected in series.",
+    "question": "To measure branch current, where is the ammeter placed?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0138",
+    "topic": "circuit_resistance",
+    "concept": "voltmeter_connection",
+    "answer_type": "text",
+    "answer": "It is connected in parallel.",
+    "question": "How should a voltmeter be connected to measure voltage across a resistor?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0139",
+    "topic": "circuit_resistance",
+    "concept": "voltmeter_connection",
+    "answer_type": "text",
+    "answer": "It is connected in parallel.",
+    "question": "Should a voltmeter be placed in series or parallel with the component?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0140",
+    "topic": "circuit_resistance",
+    "concept": "voltmeter_connection",
+    "answer_type": "text",
+    "answer": "It is connected in parallel.",
+    "question": "To measure potential difference, where is the voltmeter connected?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0141",
+    "topic": "circuit_power",
+    "concept": "higher_resistance_lower_current_fixed_voltage",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "For a fixed voltage source, does increasing resistance reduce current?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0142",
+    "topic": "circuit_power",
+    "concept": "higher_resistance_lower_current_fixed_voltage",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "If U is unchanged and R becomes larger, should current become smaller?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0143",
+    "topic": "circuit_power",
+    "concept": "higher_resistance_lower_current_fixed_voltage",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: at constant voltage, current is inversely related to resistance.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0144",
+    "topic": "circuit_power",
+    "concept": "short_circuit_large_current",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Can a short circuit cause a very large current?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0145",
+    "topic": "circuit_power",
+    "concept": "short_circuit_large_current",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Is low resistance the reason short circuits are dangerous?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0146",
+    "topic": "circuit_power",
+    "concept": "short_circuit_large_current",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: a near-zero resistance path can draw excessive current.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0147",
+    "topic": "electrostatics_field",
+    "concept": "equipotential_work_zero",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Is the work zero when a charge moves along an equipotential surface?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0148",
+    "topic": "electrostatics_field",
+    "concept": "equipotential_work_zero",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Along an equipotential line, is there any change in electric potential?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0149",
+    "topic": "electrostatics_field",
+    "concept": "equipotential_work_zero",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: no electrostatic work is needed along an equipotential path.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0150",
+    "topic": "electrostatics_field",
+    "concept": "field_perpendicular_equipotential",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Is the electric field perpendicular to equipotential surfaces?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0151",
+    "topic": "electrostatics_field",
+    "concept": "field_perpendicular_equipotential",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "How is the electric field oriented relative to an equipotential surface?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0152",
+    "topic": "electrostatics_field",
+    "concept": "field_perpendicular_equipotential",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: electric field lines cross equipotential surfaces at right angles.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0153",
+    "topic": "electrostatics_field",
+    "concept": "field_from_positive_charge_outward",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Do electric field lines point away from a positive point charge?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0154",
+    "topic": "electrostatics_field",
+    "concept": "field_from_positive_charge_outward",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Around a positive charge, is the electric field directed outward?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0155",
+    "topic": "electrostatics_field",
+    "concept": "field_from_positive_charge_outward",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: the field of a positive charge points radially outward.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0156",
+    "topic": "electrostatics_field",
+    "concept": "field_from_negative_charge_inward",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Do electric field lines point toward a negative point charge?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0157",
+    "topic": "electrostatics_field",
+    "concept": "field_from_negative_charge_inward",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Around a negative charge, is the electric field directed inward?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0158",
+    "topic": "electrostatics_field",
+    "concept": "field_from_negative_charge_inward",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: the field of a negative charge points toward the charge.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0159",
+    "topic": "electrostatics_force",
+    "concept": "newton_third_law_charges",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Do two point charges exert equal and opposite electric forces on each other?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0160",
+    "topic": "electrostatics_force",
+    "concept": "newton_third_law_charges",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "If charge A pushes charge B electrically, does B exert an equal opposite force on A?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0161",
+    "topic": "electrostatics_force",
+    "concept": "newton_third_law_charges",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: Coulomb forces between two charges form an action-reaction pair.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0162",
+    "topic": "electrostatics_force",
+    "concept": "uniform_field_force_direction",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "In a uniform electric field, does a positive charge feel force in the direction of the field?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0163",
+    "topic": "electrostatics_force",
+    "concept": "uniform_field_force_direction",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does a negative charge accelerate opposite to the electric field direction?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0164",
+    "topic": "electrostatics_force",
+    "concept": "uniform_field_force_direction",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: the sign of charge controls the direction of force in a uniform field.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0165",
+    "topic": "capacitor",
+    "concept": "capacitor_blocks_dc_steady_state",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "After a capacitor is fully charged by a DC source, does it block steady current?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0166",
+    "topic": "capacitor",
+    "concept": "capacitor_blocks_dc_steady_state",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "In steady DC conditions, does an ideal capacitor behave like an open circuit?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0167",
+    "topic": "capacitor",
+    "concept": "capacitor_blocks_dc_steady_state",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: a fully charged ideal capacitor passes no steady DC current.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0168",
+    "topic": "capacitor",
+    "concept": "capacitor_charge_increases_with_voltage",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "For a fixed capacitor, does stored charge increase when voltage increases?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0169",
+    "topic": "capacitor",
+    "concept": "capacitor_charge_increases_with_voltage",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "If C is constant and U doubles, does Q also double?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0170",
+    "topic": "capacitor",
+    "concept": "capacitor_charge_increases_with_voltage",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: capacitor charge is proportional to voltage for fixed C.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0171",
+    "topic": "capacitor",
+    "concept": "capacitor_field_between_plates",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Between large parallel capacitor plates, is the electric field approximately uniform?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0172",
+    "topic": "capacitor",
+    "concept": "capacitor_field_between_plates",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Can the field between ideal parallel plates be related to voltage by E = U/d?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0173",
+    "topic": "capacitor",
+    "concept": "capacitor_field_between_plates",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: the parallel-plate capacitor field is nearly uniform in the central region.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0174",
+    "topic": "induction",
+    "concept": "flux_unit_weber",
+    "answer_type": "text",
+    "answer": "Weber.",
+    "question": "What is the SI unit of magnetic flux?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0175",
+    "topic": "induction",
+    "concept": "flux_unit_weber",
+    "answer_type": "text",
+    "answer": "Weber.",
+    "question": "Which unit is used for magnetic flux in Faraday's law?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0176",
+    "topic": "induction",
+    "concept": "flux_unit_weber",
+    "answer_type": "text",
+    "answer": "Weber.",
+    "question": "Magnetic flux is reported in what SI unit?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0177",
+    "topic": "induction",
+    "concept": "emf_unit_volt",
+    "answer_type": "text",
+    "answer": "Volt.",
+    "question": "What is the SI unit of induced emf?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0178",
+    "topic": "induction",
+    "concept": "emf_unit_volt",
+    "answer_type": "text",
+    "answer": "Volt.",
+    "question": "Induced electromotive force is measured in which unit?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0179",
+    "topic": "induction",
+    "concept": "emf_unit_volt",
+    "answer_type": "text",
+    "answer": "Volt.",
+    "question": "Which unit should be used for emf in Faraday's law?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0180",
+    "topic": "induction",
+    "concept": "moving_conductor_flux_change",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Can moving a conductor through a magnetic field induce an emf?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0181",
+    "topic": "induction",
+    "concept": "moving_conductor_flux_change",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "If motion changes the flux linked with a circuit, can voltage be induced?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0182",
+    "topic": "induction",
+    "concept": "moving_conductor_flux_change",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: electromagnetic induction can be caused by motion in a magnetic field.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0183",
+    "topic": "induction",
+    "concept": "inductor_opposes_current_change",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does an inductor oppose changes in current?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0184",
+    "topic": "induction",
+    "concept": "inductor_opposes_current_change",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "When current through an inductor changes, does back emf resist that change?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0185",
+    "topic": "induction",
+    "concept": "inductor_opposes_current_change",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: an ideal inductor resists sudden current changes.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0186",
+    "topic": "measurement_error",
+    "concept": "absolute_error_same_unit",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does absolute error have the same unit as the measured quantity?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0187",
+    "topic": "measurement_error",
+    "concept": "absolute_error_same_unit",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "If length is measured in centimeters, is its absolute error also in centimeters?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0188",
+    "topic": "measurement_error",
+    "concept": "absolute_error_same_unit",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: absolute uncertainty carries the original physical unit.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0189",
+    "topic": "measurement_error",
+    "concept": "relative_error_dimensionless",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Is relative error dimensionless before converting to percent?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0190",
+    "topic": "measurement_error",
+    "concept": "relative_error_dimensionless",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does the unit cancel in a relative error ratio?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0191",
+    "topic": "measurement_error",
+    "concept": "relative_error_dimensionless",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: relative uncertainty is a unitless ratio.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0192",
+    "topic": "measurement_error",
+    "concept": "smaller_relative_error_more_precise",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does a smaller relative error indicate a more precise measurement?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0193",
+    "topic": "measurement_error",
+    "concept": "smaller_relative_error_more_precise",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "If two measurements have the same unit, is the one with lower relative error more precise?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0194",
+    "topic": "measurement_error",
+    "concept": "smaller_relative_error_more_precise",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: lower relative uncertainty usually means better precision.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0195",
+    "topic": "LC_oscillation",
+    "concept": "lc_period_formula_depends_lc",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does the period of an ideal LC oscillator depend on L and C?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0196",
+    "topic": "LC_oscillation",
+    "concept": "lc_period_formula_depends_lc",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Is T = 2*pi*sqrt(LC) the period relation for an ideal LC circuit?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0197",
+    "topic": "LC_oscillation",
+    "concept": "lc_period_formula_depends_lc",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: increasing L or C tends to increase the LC oscillation period.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0198",
+    "topic": "LC_oscillation",
+    "concept": "no_resistance_no_damping",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "If an LC circuit has no resistance, are the ideal oscillations undamped?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0199",
+    "topic": "LC_oscillation",
+    "concept": "no_resistance_no_damping",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "Does removing resistance eliminate energy loss in the ideal LC model?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0200",
+    "topic": "LC_oscillation",
+    "concept": "no_resistance_no_damping",
+    "answer_type": "yes_no",
+    "answer": "Yes",
+    "question": "True or false: ideal LC oscillations continue without damping.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0201",
+    "topic": "capacitor",
+    "concept": "misconception_capacitance_voltage_dependent",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: doubling the voltage across an ideal capacitor doubles its capacitance.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0202",
+    "topic": "capacitor",
+    "concept": "misconception_capacitance_voltage_dependent",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Does a capacitor's capacitance become larger simply because the applied voltage is larger?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0203",
+    "topic": "capacitor",
+    "concept": "misconception_capacitance_voltage_dependent",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "If the voltage source is stronger, must the capacitance of the same capacitor increase?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0204",
+    "topic": "capacitor",
+    "concept": "misconception_series_capacitors_add_directly",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: capacitors in series have equivalent capacitance C1 + C2.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0205",
+    "topic": "capacitor",
+    "concept": "misconception_series_capacitors_add_directly",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Do series capacitors add in the same direct way as parallel capacitors?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0206",
+    "topic": "capacitor",
+    "concept": "misconception_series_capacitors_add_directly",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Is the equivalent capacitance of two series capacitors always the sum of their capacitances?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0207",
+    "topic": "induction",
+    "concept": "misconception_static_flux_induces_emf",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: any nonzero magnetic flux through a loop automatically creates induced emf.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0208",
+    "topic": "induction",
+    "concept": "misconception_static_flux_induces_emf",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "If the magnetic flux through a coil is steady, must there be an induced voltage?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0209",
+    "topic": "induction",
+    "concept": "misconception_static_flux_induces_emf",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Can constant magnetic flux alone maintain an induced current in an ideal loop?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0210",
+    "topic": "induction",
+    "concept": "misconception_lenz_supports_change",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: Lenz's law says induced current helps the magnetic flux change that produced it.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0211",
+    "topic": "induction",
+    "concept": "misconception_lenz_supports_change",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Does the induced current normally strengthen the change in flux that caused it?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0212",
+    "topic": "induction",
+    "concept": "misconception_lenz_supports_change",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "According to Lenz's law, does induction assist the original flux change?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0213",
+    "topic": "LC_oscillation",
+    "concept": "misconception_lc_energy_lost_ideal",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: an ideal LC oscillator loses energy on every cycle.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0214",
+    "topic": "LC_oscillation",
+    "concept": "misconception_lc_energy_lost_ideal",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Does an ideal LC circuit necessarily damp out even with zero resistance?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0215",
+    "topic": "LC_oscillation",
+    "concept": "misconception_lc_energy_lost_ideal",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "In the no-resistance LC model, is total energy gradually destroyed?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0216",
+    "topic": "LC_oscillation",
+    "concept": "misconception_lc_frequency_amplitude",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: a larger initial voltage makes an ideal LC circuit oscillate at a higher frequency.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0217",
+    "topic": "LC_oscillation",
+    "concept": "misconception_lc_frequency_amplitude",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Does increasing the starting charge change the natural frequency of an ideal LC oscillator?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0218",
+    "topic": "LC_oscillation",
+    "concept": "misconception_lc_frequency_amplitude",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Is LC frequency controlled by amplitude rather than by L and C?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0219",
+    "topic": "electrostatics_field",
+    "concept": "misconception_field_scalar_addition",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: electric fields from several charges should always be added only by their magnitudes.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0220",
+    "topic": "electrostatics_field",
+    "concept": "misconception_field_scalar_addition",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Can net electric field be found by ignoring direction and adding all field sizes?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0221",
+    "topic": "electrostatics_field",
+    "concept": "misconception_field_scalar_addition",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Is electric-field superposition a scalar-only addition rule?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0222",
+    "topic": "electrostatics_field",
+    "concept": "misconception_positive_field_inward",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: electric field lines point inward toward a positive point charge.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0223",
+    "topic": "electrostatics_field",
+    "concept": "misconception_positive_field_inward",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Around a positive charge, is the electric field directed into the charge?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0224",
+    "topic": "electrostatics_field",
+    "concept": "misconception_positive_field_inward",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Do positive charges attract positive test charges inward as the field direction?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0225",
+    "topic": "electrostatics_force",
+    "concept": "misconception_like_charges_attract",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: two positive point charges attract each other.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0226",
+    "topic": "electrostatics_force",
+    "concept": "misconception_like_charges_attract",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Do two charges with the same sign pull toward each other?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0227",
+    "topic": "electrostatics_force",
+    "concept": "misconception_like_charges_attract",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "If both charges are negative, is the Coulomb force attractive?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0228",
+    "topic": "circuit_resistance",
+    "concept": "misconception_parallel_resistance_increases",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: adding another resistor in parallel always increases equivalent resistance.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0229",
+    "topic": "circuit_resistance",
+    "concept": "misconception_parallel_resistance_increases",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Does total resistance become larger when a new parallel branch is added?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0230",
+    "topic": "circuit_resistance",
+    "concept": "misconception_parallel_resistance_increases",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "For parallel resistors, is the equivalent resistance greater than every branch resistance?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0231",
+    "topic": "circuit_resistance",
+    "concept": "misconception_series_voltage_same",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: every resistor in a series circuit must have the same voltage drop.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0232",
+    "topic": "circuit_resistance",
+    "concept": "misconception_series_voltage_same",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Do series resistors always share equal voltage regardless of their resistance?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0233",
+    "topic": "circuit_resistance",
+    "concept": "misconception_series_voltage_same",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Is voltage necessarily identical across all series components?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0234",
+    "topic": "circuit_power",
+    "concept": "misconception_ideal_reactive_real_power",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: an ideal inductor or capacitor consumes real power every AC cycle.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0235",
+    "topic": "circuit_power",
+    "concept": "misconception_ideal_reactive_real_power",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Does a pure ideal reactive component dissipate average real power like a resistor?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0236",
+    "topic": "circuit_power",
+    "concept": "misconception_ideal_reactive_real_power",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Can ideal reactance alone convert net electrical energy into heat?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0237",
+    "topic": "measurement_error",
+    "concept": "misconception_relative_error_has_unit",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: relative error must have the same physical unit as the measured value.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0238",
+    "topic": "measurement_error",
+    "concept": "misconception_relative_error_has_unit",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Does relative uncertainty keep units such as volts or meters?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0239",
+    "topic": "measurement_error",
+    "concept": "misconception_relative_error_has_unit",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "Is percent error a dimensional physical quantity?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0240",
+    "topic": "measurement_error",
+    "concept": "misconception_product_absolute_errors",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "True or false: for multiplication, absolute errors are added directly just like ordinary numbers.",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0241",
+    "topic": "measurement_error",
+    "concept": "misconception_product_absolute_errors",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "When calculating a product, should we ignore relative errors and add only absolute errors?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0242",
+    "topic": "measurement_error",
+    "concept": "misconception_product_absolute_errors",
+    "answer_type": "yes_no",
+    "answer": "No",
+    "question": "For R = U/I, is the uncertainty found by simply adding volt and ampere errors as absolute quantities?",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0243",
+    "topic": "ac_resonance",
+    "concept": "mcq_resonance_impedance",
+    "answer_type": "mcq",
+    "answer": "B. The resistance only",
+    "question": "Choose the correct option for a series RLC circuit at resonance. A. Infinite impedance B. The resistance only C. Zero resistance D. Only capacitive reactance",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0244",
+    "topic": "ac_resonance",
+    "concept": "mcq_resonance_impedance",
+    "answer_type": "mcq",
+    "answer": "B. The resistance only",
+    "question": "Which option describes the impedance of a series resonant RLC circuit? A. XL plus XC B. The resistance only C. Purely capacitive D. Purely inductive",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0245",
+    "topic": "capacitor",
+    "concept": "mcq_parallel_capacitance",
+    "answer_type": "mcq",
+    "answer": "A. It increases",
+    "question": "What happens to equivalent capacitance when another capacitor is connected in parallel? A. It increases B. It becomes zero C. It must decrease D. It becomes negative",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0246",
+    "topic": "capacitor",
+    "concept": "mcq_parallel_capacitance",
+    "answer_type": "mcq",
+    "answer": "A. It increases",
+    "question": "Choose the correct statement about adding a capacitor in parallel. A. It increases equivalent capacitance B. It removes stored charge C. It lowers permittivity D. It reverses voltage",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0247",
+    "topic": "induction",
+    "concept": "mcq_lenz_law",
+    "answer_type": "mcq",
+    "answer": "C. It opposes the flux change",
+    "question": "What does Lenz's law state about induced current? A. It always helps the change B. It ignores magnetic flux C. It opposes the flux change D. It cancels resistance",
+    "verification": "curated physics concept rule"
+  },
+  {
+    "id": "CHLTF_BANK_0248",
+    "topic": "induction",
+    "concept": "mcq_lenz_law",
+    "answer_type": "mcq",
+    "answer": "C. It opposes the flux change",
+    "question": "Select the correct Lenz-law statement. A. Current has no direction B. Flux never changes C. It opposes the flux change D. Voltage is always zero",
+    "verification": "curated physics concept rule"
+  }
+]

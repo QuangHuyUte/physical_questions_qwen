@@ -1,0 +1,589 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Length 3601 >>
+stream
+0.180 0.340 0.480 rg
+BT /F2 8.5 Tf 46.0 806.0 Td (EXACT 2026 Hybrid V2) Tj ET
+0.060 0.090 0.140 rg
+BT /F2 16.5 Tf 46.0 784.0 Td (Solution Overview) Tj ET
+0.780 0.820 0.860 RG
+1.0 w 46.0 772.0 m 549.0 772.0 l S
+0.060 0.160 0.280 rg
+0.0 632.0 595.0 210.0 re f
+0.060 0.340 0.540 rg
+0.0 632.0 595.0 38.0 re f
+1.000 1.000 1.000 rg
+BT /F2 25.0 Tf 46.0 737.0 Td (Hybrid V2 Physics API) Tj ET
+0.880 0.940 0.980 rg
+BT /F1 11.0 Tf 46.0 706.0 Td (Calculator-first inference with Qwen2.5-3B LoRA adapters for numeric parsing,) Tj ET
+0.880 0.940 0.980 rg
+BT /F1 11.0 Tf 46.0 691.0 Td (locked-trace explanation, and conceptual Type 1 / CHLT reasoning.) Tj ET
+0.985 0.990 1.000 rg
+46.0 540.0 240.0 110.0 re f
+0.800 0.850 0.900 RG
+0.8 w 46.0 540.0 240.0 110.0 re S
+0.060 0.340 0.540 rg
+46.0 643.0 240.0 7.0 re f
+0.070 0.100 0.150 rg
+BT /F2 10.8 Tf 57.0 625.0 Td (Main principle) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 57.0 607.0 Td (Use LLMs for language-heavy work, but keep) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 57.0 596.0 Td (arithmetic inside deterministic physics formulas.) Tj ET
+0.985 0.990 1.000 rg
+308.0 540.0 240.0 110.0 re f
+0.800 0.850 0.900 RG
+0.8 w 308.0 540.0 240.0 110.0 re S
+0.170 0.480 0.340 rg
+308.0 643.0 240.0 7.0 re f
+0.070 0.100 0.150 rg
+BT /F2 10.8 Tf 319.0 625.0 Td (Numeric authority) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 319.0 607.0 Td (Type 2 answers are recomputed by) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 319.0 596.0 Td (physics_calculator_v2 after payload validation.) Tj ET
+0.985 0.990 1.000 rg
+46.0 395.0 240.0 110.0 re f
+0.800 0.850 0.900 RG
+0.8 w 46.0 395.0 240.0 110.0 re S
+0.780 0.420 0.140 rg
+46.0 498.0 240.0 7.0 re f
+0.070 0.100 0.150 rg
+BT /F2 10.8 Tf 57.0 480.0 Td (CHLT clarification) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 57.0 462.0 Td (CHLT is Yes / No / Uncertain, but it may still) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 57.0 451.0 Td (require numeric calculation before choosing the) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 57.0 440.0 Td (label.) Tj ET
+0.985 0.990 1.000 rg
+308.0 395.0 240.0 110.0 re f
+0.800 0.850 0.900 RG
+0.8 w 308.0 395.0 240.0 110.0 re S
+0.480 0.340 0.700 rg
+308.0 498.0 240.0 7.0 re f
+0.070 0.100 0.150 rg
+BT /F2 10.8 Tf 319.0 480.0 Td (Final package) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 319.0 462.0 Td (The runtime uses one 3B base model and three LoRA) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 319.0 451.0 Td (adapters: numeric parser, trace explainer, and) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 319.0 440.0 Td (conceptual reasoner.) Tj ET
+0.120 0.140 0.180 rg
+BT /F2 14.0 Tf 46.0 320.0 Td (Why this design) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 296.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 296.0 Td (Fast deterministic paths solve common numeric physics without waiting for vLLM.) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 281.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 281.0 Td (Unseen wording is handled by a parser adapter, then verified by calculator code.) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 266.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 266.0 Td (Explanation polish is optional and cannot change locked values.) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 251.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 251.0 Td (Conceptual questions are isolated from numeric solving.) Tj ET
+0.870 0.890 0.920 RG
+0.6 w 46.0 34.0 m 549.0 34.0 l S
+0.420 0.450 0.500 rg
+BT /F1 7.7 Tf 46.0 20.0 Td (Calculator-first API: LLMs parse/explain; deterministic physics computes numeric answers.) Tj ET
+0.420 0.450 0.500 rg
+BT /F2 8.0 Tf 527.0 20.0 Td (1) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 14 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 4335 >>
+stream
+0.180 0.340 0.480 rg
+BT /F2 8.5 Tf 46.0 806.0 Td (EXACT 2026 Hybrid V2) Tj ET
+0.060 0.090 0.140 rg
+BT /F2 16.5 Tf 46.0 784.0 Td (Runtime Architecture) Tj ET
+0.780 0.820 0.860 RG
+1.0 w 46.0 772.0 m 549.0 772.0 l S
+0.960 0.980 1.000 rg
+55.0 710.0 105.0 58.0 re f
+0.720 0.800 0.880 RG
+0.7 w 55.0 710.0 105.0 58.0 re S
+0.050 0.220 0.360 rg
+BT /F2 9.3 Tf 64.0 750.0 Td (Input) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 64.0 735.0 Td (Single query or batch) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 64.0 725.5 Td (at /predict.) Tj ET
+0.960 0.980 1.000 rg
+205.0 710.0 130.0 58.0 re f
+0.720 0.800 0.880 RG
+0.7 w 205.0 710.0 130.0 58.0 re S
+0.050 0.220 0.360 rg
+BT /F2 9.3 Tf 214.0 750.0 Td (Router) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 214.0 735.0 Td (Separates Type 2 numeric) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 214.0 725.5 Td (from Type 1 conceptual.) Tj ET
+0.960 0.980 1.000 rg
+380.0 710.0 145.0 58.0 re f
+0.720 0.800 0.880 RG
+0.7 w 380.0 710.0 145.0 58.0 re S
+0.050 0.220 0.360 rg
+BT /F2 9.3 Tf 389.0 750.0 Td (JSON response) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 389.0 735.0 Td (Answer, unit, explanation,) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 389.0 725.5 Td (reasoning and debug.) Tj ET
+0.780 0.820 0.860 RG
+1.2 w 160.0 739.0 m 205.0 739.0 l S
+0.780 0.820 0.860 RG
+1.2 w 335.0 739.0 m 380.0 739.0 l S
+0.965 0.985 0.955 rg
+70.0 590.0 175.0 75.0 re f
+0.720 0.800 0.880 RG
+0.7 w 70.0 590.0 175.0 75.0 re S
+0.050 0.220 0.360 rg
+BT /F2 9.3 Tf 79.0 647.0 Td (Type 1 / CHLT branch) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 79.0 632.0 Td (Quantitative yes/no claims are) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 79.0 622.5 Td (calculated first. Pure conceptual CHLT) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 79.0 613.0 Td (uses the reasoner.) Tj ET
+0.960 0.980 1.000 rg
+325.0 590.0 175.0 75.0 re f
+0.720 0.800 0.880 RG
+0.7 w 325.0 590.0 175.0 75.0 re S
+0.050 0.220 0.360 rg
+BT /F2 9.3 Tf 334.0 647.0 Td (Type 2 numeric branch) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 334.0 632.0 Td (V1 deterministic solver and guardrails) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 334.0 622.5 Td (run first.) Tj ET
+0.780 0.820 0.860 RG
+1.0 w 270.0 710.0 m 157.0 665.0 l S
+0.780 0.820 0.860 RG
+1.0 w 270.0 710.0 m 412.0 665.0 l S
+0.980 0.965 1.000 rg
+325.0 480.0 175.0 75.0 re f
+0.720 0.800 0.880 RG
+0.7 w 325.0 480.0 175.0 75.0 re S
+0.050 0.220 0.360 rg
+BT /F2 9.3 Tf 334.0 537.0 Td (Parser fallback) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 334.0 522.0 Td (numeric_parser_final extracts givens,) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 334.0 512.5 Td (target, constraints and formula) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 334.0 503.0 Td (candidates.) Tj ET
+1.000 0.980 0.940 rg
+325.0 370.0 175.0 75.0 re f
+0.720 0.800 0.880 RG
+0.7 w 325.0 370.0 175.0 75.0 re S
+0.050 0.220 0.360 rg
+BT /F2 9.3 Tf 334.0 427.0 Td (Validator + calculator) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 334.0 412.0 Td (Payload is checked. Registered formulas) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 334.0 402.5 Td (compute the locked answer.) Tj ET
+0.970 0.980 0.990 rg
+325.0 260.0 175.0 75.0 re f
+0.720 0.800 0.880 RG
+0.7 w 325.0 260.0 175.0 75.0 re S
+0.050 0.220 0.360 rg
+BT /F2 9.3 Tf 334.0 317.0 Td (Trace explanation) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 334.0 302.0 Td (Deterministic explanation by default.) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 334.0 292.5 Td (Optional polish only explains locked) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 334.0 283.0 Td (traces.) Tj ET
+0.780 0.820 0.860 RG
+1.1 w 412.0 590.0 m 412.0 555.0 l S
+0.780 0.820 0.860 RG
+1.1 w 412.0 480.0 m 412.0 445.0 l S
+0.780 0.820 0.860 RG
+1.1 w 412.0 370.0 m 412.0 335.0 l S
+0.120 0.140 0.180 rg
+BT /F2 14.0 Tf 46.0 215.0 Td (Routing guardrail) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.3 Tf 46.0 190.0 Td (A numeric yes/no request should not be solved directly by the conceptual adapter. The API first) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.3 Tf 46.0 177.0 Td (computes the relevant quantity, compares it with the claim, and only then returns Yes, No, or) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.3 Tf 46.0 164.0 Td (Uncertain.) Tj ET
+0.870 0.890 0.920 RG
+0.6 w 46.0 34.0 m 549.0 34.0 l S
+0.420 0.450 0.500 rg
+BT /F1 7.7 Tf 46.0 20.0 Td (Calculator-first API: LLMs parse/explain; deterministic physics computes numeric answers.) Tj ET
+0.420 0.450 0.500 rg
+BT /F2 8.0 Tf 527.0 20.0 Td (2) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 14 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 4247 >>
+stream
+0.180 0.340 0.480 rg
+BT /F2 8.5 Tf 46.0 806.0 Td (EXACT 2026 Hybrid V2) Tj ET
+0.060 0.090 0.140 rg
+BT /F2 16.5 Tf 46.0 784.0 Td (Adapters and Contracts) Tj ET
+0.780 0.820 0.860 RG
+1.0 w 46.0 772.0 m 549.0 772.0 l S
+0.200 0.220 0.270 rg
+BT /F1 9.5 Tf 46.0 735.0 Td (Each LoRA adapter has a narrow role and a JSON contract. This keeps the system auditable and reduces) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.5 Tf 46.0 722.0 Td (hallucinated outputs.) Tj ET
+0.070 0.200 0.340 rg
+46.0 656.0 505.0 24.0 re f
+1.000 1.000 1.000 rg
+BT /F2 8.3 Tf 53.0 664.0 Td (Adapter) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.3 Tf 185.0 664.0 Td (Role) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.3 Tf 330.0 664.0 Td (Rows) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.3 Tf 410.0 664.0 Td (Contract) Tj ET
+0.985 0.990 1.000 rg
+46.0 596.0 505.0 60.0 re f
+0.820 0.860 0.900 RG
+0.5 w 46.0 596.0 505.0 60.0 re S
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 53.0 642.0 Td (numeric_parser_final) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 185.0 642.0 Td (Turns natural Type 2 wording into) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 185.0 632.7 Td (structured quantities and) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 185.0 623.4 Td (formulas.) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 330.0 642.0 Td (1443 / 220) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 410.0 642.0 Td (No answer, no Python, no) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 410.0 632.7 Td (final_result, no CoT.) Tj ET
+0.950 0.970 0.985 rg
+46.0 536.0 505.0 60.0 re f
+0.820 0.860 0.900 RG
+0.5 w 46.0 536.0 505.0 60.0 re S
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 53.0 582.0 Td (trace_explainer_final) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 185.0 582.0 Td (Explains a locked calculator) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 185.0 572.7 Td (trace in readable language.) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 330.0 582.0 Td (1196 / 163) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 410.0 582.0 Td (Explanation only; answer, unit and) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 410.0 572.7 Td (formula are immutable.) Tj ET
+0.985 0.990 1.000 rg
+46.0 476.0 505.0 60.0 re f
+0.820 0.860 0.900 RG
+0.5 w 46.0 476.0 505.0 60.0 re S
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 53.0 522.0 Td (chlt_reasoner_final) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 185.0 522.0 Td (Conceptual Type 1 reasoner. Pure) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 185.0 512.7 Td (CHLT subset is Yes / No /) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 185.0 503.4 Td (Uncertain.) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 330.0 522.0 Td (334 / 73) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 410.0 522.0 Td (Used after quantitative claim) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 410.0 512.7 Td (verification fails or when the) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 410.0 503.4 Td (prompt is purely conceptual.) Tj ET
+0.120 0.140 0.180 rg
+BT /F2 14.0 Tf 46.0 390.0 Td (Why no planner-code adapter) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 365.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 365.0 Td (Generated code can be syntactically invalid or use the wrong equation.) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 350.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 350.0 Td (Generated answer fields can disagree with the code result.) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 335.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 335.0 Td (The final design asks the model to parse only, then lets deterministic formulas calculate.) Tj ET
+0.120 0.140 0.180 rg
+BT /F2 12.0 Tf 46.0 245.0 Td (Numeric parser allowed output) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.8 Tf 46.0 222.0 Td (topic, question_kind, target, givens, constraints,) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.8 Tf 46.0 210.0 Td (formula_candidates, confidence) Tj ET
+0.120 0.140 0.180 rg
+BT /F2 12.0 Tf 316.0 245.0 Td (Numeric parser forbidden output) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.8 Tf 316.0 222.0 Td (answer, final_result, unit_answer, python_code,) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.8 Tf 316.0 210.0 Td (golden_code, chain-of-thought) Tj ET
+0.870 0.890 0.920 RG
+0.6 w 46.0 34.0 m 549.0 34.0 l S
+0.420 0.450 0.500 rg
+BT /F1 7.7 Tf 46.0 20.0 Td (Calculator-first API: LLMs parse/explain; deterministic physics computes numeric answers.) Tj ET
+0.420 0.450 0.500 rg
+BT /F2 8.0 Tf 527.0 20.0 Td (3) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 14 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 3993 >>
+stream
+0.180 0.340 0.480 rg
+BT /F2 8.5 Tf 46.0 806.0 Td (EXACT 2026 Hybrid V2) Tj ET
+0.060 0.090 0.140 rg
+BT /F2 16.5 Tf 46.0 784.0 Td (Calculator and Verification) Tj ET
+0.780 0.820 0.860 RG
+1.0 w 46.0 772.0 m 549.0 772.0 l S
+0.985 0.990 1.000 rg
+46.0 665.0 158.0 78.0 re f
+0.800 0.850 0.900 RG
+0.8 w 46.0 665.0 158.0 78.0 re S
+0.060 0.340 0.540 rg
+46.0 736.0 158.0 7.0 re f
+0.070 0.100 0.150 rg
+BT /F2 10.8 Tf 57.0 718.0 Td (69 formulas) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 57.0 700.0 Td (Registered branches in) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 57.0 689.0 Td (formula_bank.py and) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 57.0 678.0 Td (calculator.py.) Tj ET
+0.985 0.990 1.000 rg
+220.0 665.0 158.0 78.0 re f
+0.800 0.850 0.900 RG
+0.8 w 220.0 665.0 158.0 78.0 re S
+0.170 0.480 0.340 rg
+220.0 736.0 158.0 7.0 re f
+0.070 0.100 0.150 rg
+BT /F2 10.8 Tf 231.0 718.0 Td (Payload validator) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 231.0 700.0 Td (Checks JSON, spans, roles and) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 231.0 689.0 Td (formula IDs before) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 231.0 678.0 Td (calculation.) Tj ET
+0.985 0.990 1.000 rg
+394.0 665.0 158.0 78.0 re f
+0.800 0.850 0.900 RG
+0.8 w 394.0 665.0 158.0 78.0 re S
+0.780 0.420 0.140 rg
+394.0 736.0 158.0 7.0 re f
+0.070 0.100 0.150 rg
+BT /F2 10.8 Tf 405.0 718.0 Td (Locked result) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 405.0 700.0 Td (Final numeric answer is) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 405.0 689.0 Td (computed by deterministic) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.3 Tf 405.0 678.0 Td (code.) Tj ET
+0.120 0.140 0.180 rg
+BT /F2 14.0 Tf 46.0 610.0 Td (Covered formula families) Tj ET
+0.050 0.250 0.400 rg
+BT /F2 9.4 Tf 46.0 585.0 Td (Circuits) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.5 Tf 156.0 585.0 Td (Ohm law, power, wire resistance, series/parallel networks.) Tj ET
+0.050 0.250 0.400 rg
+BT /F2 9.4 Tf 46.0 546.0 Td (Capacitors) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.5 Tf 156.0 546.0 Td (Charge, voltage, capacitance, stored energy and equivalent capacitance.) Tj ET
+0.050 0.250 0.400 rg
+BT /F2 9.4 Tf 46.0 507.0 Td (LC / RLC) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.5 Tf 156.0 507.0 Td (LC energy and frequency, resonance, reactance and impedance.) Tj ET
+0.050 0.250 0.400 rg
+BT /F2 9.4 Tf 46.0 468.0 Td (Electrostatics) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.5 Tf 156.0 468.0 Td (Coulomb force, point-charge fields and vector resultants.) Tj ET
+0.050 0.250 0.400 rg
+BT /F2 9.4 Tf 46.0 429.0 Td (Induction) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.5 Tf 156.0 429.0 Td (Magnetic flux, Faraday emf, solenoid field and inductor energy.) Tj ET
+0.050 0.250 0.400 rg
+BT /F2 9.4 Tf 46.0 390.0 Td (Measurement) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 8.5 Tf 156.0 390.0 Td (Relative error, absolute error and propagated uncertainty.) Tj ET
+0.120 0.140 0.180 rg
+BT /F2 14.0 Tf 46.0 315.0 Td (Validation ladder) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 290.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 290.0 Td (1. Parse JSON and required fields.) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 275.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 275.0 Td (2. Reject forbidden generated fields in numeric parser output.) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 260.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 260.0 Td (3. Check raw spans against the question.) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 245.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 245.0 Td (4. Check formula candidates against the registered formula bank.) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 230.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 230.0 Td (5. Compute and format the final answer with deterministic unit conversion.) Tj ET
+0.870 0.890 0.920 RG
+0.6 w 46.0 34.0 m 549.0 34.0 l S
+0.420 0.450 0.500 rg
+BT /F1 7.7 Tf 46.0 20.0 Td (Calculator-first API: LLMs parse/explain; deterministic physics computes numeric answers.) Tj ET
+0.420 0.450 0.500 rg
+BT /F2 8.0 Tf 527.0 20.0 Td (4) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 14 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 3447 >>
+stream
+0.180 0.340 0.480 rg
+BT /F2 8.5 Tf 46.0 806.0 Td (EXACT 2026 Hybrid V2) Tj ET
+0.060 0.090 0.140 rg
+BT /F2 16.5 Tf 46.0 784.0 Td (Deployment and API Contract) Tj ET
+0.780 0.820 0.860 RG
+1.0 w 46.0 772.0 m 549.0 772.0 l S
+0.070 0.200 0.340 rg
+46.0 701.0 505.0 24.0 re f
+1.000 1.000 1.000 rg
+BT /F2 8.3 Tf 53.0 709.0 Td (Item) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.3 Tf 188.0 709.0 Td (Final setting) Tj ET
+0.985 0.990 1.000 rg
+46.0 656.0 505.0 45.0 re f
+0.820 0.860 0.900 RG
+0.5 w 46.0 656.0 505.0 45.0 re S
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 53.0 687.0 Td (Endpoint) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 188.0 687.0 Td (/predict returns one JSON result per query.) Tj ET
+0.950 0.970 0.985 rg
+46.0 611.0 505.0 45.0 re f
+0.820 0.860 0.900 RG
+0.5 w 46.0 611.0 505.0 45.0 re S
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 53.0 642.0 Td (Kaggle package) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 188.0 642.0 Td (kaggle_api_package_hybrid_v2_clean.zip) Tj ET
+0.985 0.990 1.000 rg
+46.0 566.0 505.0 45.0 re f
+0.820 0.860 0.900 RG
+0.5 w 46.0 566.0 505.0 45.0 re S
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 53.0 597.0 Td (Notebook) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 188.0 597.0 Td (result/Notebook/deploy_physics_api_qwen3b_vllm_kaggle.ipynb) Tj ET
+0.950 0.970 0.985 rg
+46.0 521.0 505.0 45.0 re f
+0.820 0.860 0.900 RG
+0.5 w 46.0 521.0 505.0 45.0 re S
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 53.0 552.0 Td (Runtime default) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 188.0 552.0 Td (Numeric parser and conceptual reasoner enabled. Polish disabled by default for speed.) Tj ET
+0.985 0.990 1.000 rg
+46.0 476.0 505.0 45.0 re f
+0.820 0.860 0.900 RG
+0.5 w 46.0 476.0 505.0 45.0 re S
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 53.0 507.0 Td (Health checks) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 7.4 Tf 188.0 507.0 Td (/health and /v1/models expose pipeline and model status.) Tj ET
+0.120 0.140 0.180 rg
+BT /F2 14.0 Tf 46.0 430.0 Td (Response fields) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 405.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 405.0 Td (query_id: copied from the request.) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 390.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 390.0 Td (answer and unit: final formatted result.) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 375.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 375.0 Td (explanation: deterministic or locked-trace explanation.) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 360.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 360.0 Td (reasoning: concise steps/evidence for auditability.) Tj ET
+0.060 0.310 0.500 rg
+BT /F2 9.0 Tf 46.0 345.0 Td (-) Tj ET
+0.200 0.220 0.270 rg
+BT /F1 9.0 Tf 59.0 345.0 Td (debug: optional timing, route, confidence and model status.) Tj ET
+0.940 0.980 0.950 rg
+46.0 105.0 505.0 72.0 re f
+0.720 0.840 0.740 RG
+0.8 w 46.0 105.0 505.0 72.0 re S
+0.120 0.360 0.200 rg
+BT /F2 11.0 Tf 58.0 150.0 Td (Final design claim) Tj ET
+0.180 0.280 0.220 rg
+BT /F1 9.0 Tf 58.0 130.0 Td (The system combines V1 deterministic speed with V2 parser-plus-calculator flexibility. The model) Tj ET
+0.180 0.280 0.220 rg
+BT /F1 9.0 Tf 58.0 118.0 Td (helps understand and explain; the calculator owns numeric truth.) Tj ET
+0.870 0.890 0.920 RG
+0.6 w 46.0 34.0 m 549.0 34.0 l S
+0.420 0.450 0.500 rg
+BT /F1 7.7 Tf 46.0 20.0 Td (Calculator-first API: LLMs parse/explain; deterministic physics computes numeric answers.) Tj ET
+0.420 0.450 0.500 rg
+BT /F2 8.0 Tf 527.0 20.0 Td (5) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 14 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R] /Count 5 >>
+endobj
+15 0 obj
+<< /Type /Catalog /Pages 14 0 R >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000000228 00000 n 
+0000003881 00000 n 
+0000004028 00000 n 
+0000008415 00000 n 
+0000008562 00000 n 
+0000012861 00000 n 
+0000013008 00000 n 
+0000017054 00000 n 
+0000017203 00000 n 
+0000020703 00000 n 
+0000020852 00000 n 
+0000020936 00000 n 
+trailer << /Size 16 /Root 15 0 R >>
+startxref
+20987
+%%EOF

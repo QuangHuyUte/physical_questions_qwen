@@ -1,0 +1,9 @@
+{
+  "name": "trace_explainer_output",
+  "required": ["explanation"],
+  "forbidden": ["answer", "unit", "python_code", "final_result"],
+  "properties": {
+    "explanation": "string"
+  }
+}
+

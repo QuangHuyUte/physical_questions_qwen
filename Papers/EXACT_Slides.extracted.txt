@@ -1,0 +1,473 @@
+EXACT 2026
+Kick-off Workshop
+The 2nd International XAI Challenge for Transparent Educational
+Question-Answering
+IEEE IJCNN 2026 Competition
+EXACT 2026 Organizing Committee
+Ho Chi Minh City University of Technology (HCMUT), VNU-HCM, Vietnam
+May 9, 2026
+Table of Contents
+1 Program Introduction
+2 Opening Remarks
+3 Competition Overview & Guidelines
+4 Dataset Type 1: Logic-Based Educational Queries
+5 Dataset Type 2: Physics Problems
+6 Suggested Approaches & Strategies
+7 Technical Demo
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 2 / 35
+Table of Contents
+1 Program Introduction
+2 Opening Remarks
+3 Competition Overview & Guidelines
+4 Dataset Type 1: Logic-Based Educational Queries
+5 Dataset Type 2: Physics Problems
+6 Suggested Approaches & Strategies
+7 Technical Demo
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 3 / 35
+Workshop Agenda
+Today’s workshop is organized into the following sessions:
+1 Opening RemarksWelcome & introduction
+2 Competition Overview & GuidelinesTimeline, rules, evaluation
+3 Dataset Type 1: Logic-Based Educational QueriesFormat & examples
+4 Dataset Type 2: Physics ProblemsFormat & examples
+5 Suggested Approaches & StrategiesPractical guidance
+6 Technical DemoAPI, pipeline, submission
+7 Q&A SessionOpen discussion
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 4 / 35
+Table of Contents
+1 Program Introduction
+2 Opening Remarks
+3 Competition Overview & Guidelines
+4 Dataset Type 1: Logic-Based Educational Queries
+5 Dataset Type 2: Physics Problems
+6 Suggested Approaches & Strategies
+7 Technical Demo
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 5 / 35
+Welcome to EXACT 2026
+EXACT 2026is the 2nd International XAI
+Challenge for Transparent Educational
+Question-Answering.
+Co-organized by:
+Ho Chi Minh City University of Technology
+(HCMUT), VNU-HCM, Vietnam
+University of Naples Parthenope, Italy
+Held under:
+IEEE International Joint Conference on Neural
+Networks (IJCNN) 2026
+IEEE World Congress on Computational
+Intelligence (WCCI 2026), Maastricht, The
+Netherlands
+Previous Edition
+EXACT 2025 at IEEE IJCNN 2025
+attracted 107 participants across 30 teams
+from multiple countries, producing the first
+public benchmark for explainable
+academic-regulation QA.
+What’s New in 2026
+Expanded into STEM reasoning
+(Physics)
+Upgraded evaluation criteria
+Structured explanation assessment
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 6 / 35
+International Challenge Chairs
+The quality and fairness of EXACT 2026 are overseen by a distinguished international
+committee:
+Name Affiliation Country
+Prof. Quan Thanh Tho Ho Chi Minh City University of Technology (HCMUT) Vietnam
+Prof. Emanuel Di Nardo University of Naples Parthenope Italy
+Prof. Nguyen Duc Anh University of South-Eastern Norway Norway
+Prof. Fabien Baldacci University of Bordeaux France
+Prof. Nguyen Le Minh Japan Advanced Institute of Science and Technology Japan
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 7 / 35
+Table of Contents
+1 Program Introduction
+2 Opening Remarks
+3 Competition Overview & Guidelines
+4 Dataset Type 1: Logic-Based Educational Queries
+5 Dataset Type 2: Physics Problems
+6 Suggested Approaches & Strategies
+7 Technical Demo
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 8 / 35
+Competition Timeline
+# Date Milestone
+1 Apr 10 to May 10, 2026 Team registration
+2 May 9, 2026Kick-off Workshop & dataset release(today)
+3 May 10 to May 30, 2026 Main competition phase
+4 Jun 1 to Jun 2, 2026 Phase 1 evaluation & feedback
+5 Jun 3 to Jun 4, 2026 Model refinement period
+6 Jun 5 to Jun 7, 2026 Phase 2 evaluation
+7 Jun 10, 2026 Top 10 announcement
+8 Jun 15, 2026 Public Test Day (live demo before jury)
+9 Jun 30 to Jul 15, 2026 Paper submission (Top 10 teams)
+10 Nov 16 to 18, 2026 Presentation at CSoNet 2026
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 9 / 35
+Eligibility & Team Formation
+Who Can Participate?
+High school students
+Undergraduates and graduate students
+Engineers and researchers
+No restrictionon age, nationality, or
+affiliation
+Team Rules
+Up to5 membersper team
+Interdisciplinary and cross-institutional
+teams are encouraged
+Individuals who registered alone will be
+matched into teams by the organizers
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 10 / 35
+Technical Requirements
+To ensure fairness and reproducibility, all submissions must follow these rules:
+✓Allowed
+Open-source LLMs only
+Maximum8 billion parameters(applies
+to every LLM component)
+Symbolic reasoning tools (Z3 Solver,
+custom engines, etc.) are encouraged
+Any approach producing explainable
+results
+/timesProhibited
+Closed-source models (GPT, Claude,
+Gemini, etc.)
+Undisclosed external datasets for
+fine-tuning
+Submissions relying on proprietary APIs
+/exclamati⌢n-triangleDisclosure
+All external datasets used for fine-tuning
+must befully disclosedin the submission.
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 11 / 35
+Evaluation Criteria
+Submissions are assessed across three dimensions:
+ID Criterion Description
+P1CorrectnessAccurate and precise answers for the given queries
+P2Explanation QualityClear, coherent natural-language explanations that
+justify each answer
+P3Reasoning DepthSupporting evidence such as FOL derivations,
+Chain-of-Thought steps, or structured proofs
+Evaluation process:
+1 Phase 1 (Selection):Submissions are scored automatically against ground-truth answers,
+then reviewed by the organizing committee for explanation quality. Detailed feedback is
+sent back to teams.
+2 Phase 2 (Selection):Same evaluation pipeline as Phase 1 (auto correctness +
+committee review of explanations) after teams refine their models.
+3 Final Round (Public Test Day):Top 10 teams run their systems live on unseen queries.
+The Challenge Chairs evaluate answers, explanations, and reasoning depth in real time.
+Final score = weighted combination of P1, P2, P3. Specific weights will be published with the
+official dataset release.
+/inf⌢-circleNote on the Public Test
+The Public Test queries arenewly authoredbut staystrictly within the same question
+types and formatsreleased today — Logic-Based Educational Queries (Multiple Choice,
+Yes/No/Uncertain, Open-ended) and text-only Physics Problems with numerical answers and
+Chain-of-Thought explanations. No new task families will be introduced.
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 12 / 35
+Submission Format
+What to Submit
+A workingAPI endpointthat accepts
+queries and returns answers with
+explanations
+Aone-page solution description
+outlining your approach, models used,
+and any external data
+API Requirements
+Must accept input queries in the
+specified JSON format
+Must return structured output (answer
++ explanation)
+Maximum60 secondsper request
+Detailed format will be provided with the
+dataset release
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 13 / 35
+Awards & Publication Opportunities
+Rank Benefits
+Top 5Cash prizes + invited presentation at the 15th Interna-
+tional Conference on Computational Data and Social
+Networks (CSoNet 2026), Nov 2026 at HCMUT. Pa-
+pers published by Springer in LNCS/LNAI, indexed by
+Scopus, DBLP, Web of Science, ACM Digital Library.
+Top 10Invited to submit a paper to the Special Session “Ex-
+plainable AI for Educational QA” at CSoNet 2026.
+All validOfficial certificate from the Challenge Chairs and con-
+ference organizers.
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 14 / 35
+Table of Contents
+1 Program Introduction
+2 Opening Remarks
+3 Competition Overview & Guidelines
+4 Dataset Type 1: Logic-Based Educational Queries
+5 Dataset Type 2: Physics Problems
+6 Suggested Approaches & Strategies
+7 Technical Demo
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 15 / 35
+Type 1: Problem Definition
+Objective
+Build a system that answers questions aboutuniversity academic regulations(grading
+policies, enrollment rules, scholarship criteria) and provideslogical explanationsgrounded in
+First-Order Logic (FOL).
+Why is this challenging?
+Regulations contain complex conditional logic (if-then rules, exceptions, nested conditions)
+Answers must be provably correct, not just plausible
+Explanations must trace back to specific regulation clauses
+Requires bridging natural language understanding with formal logic
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 16 / 35
+Type 1: Dataset Format
+Statistics
+411 recordscontaining808 questionsin total.
+Question types:358 Multiple Choice, 216 Yes/No/Uncertain, 234 Open-ended.
+Coverage:99% of records include FOL premises; 100% include human-written explanations.
+Average per record:∼10.8 NL premises,∼1.97 questions.
+Each record includes:
+Field Description
+Natural-language premises The regulation text describing rules and conditions
+FOL annotations First-Order Logic representation of the premises
+Questions One or more questions about the regulation
+Ground-truth answers Correct answers (Yes/No/Uncertain or specific values)
+Human-written explanations Step-by-step reasoning explaining why the answer is correct
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 17 / 35
+Type 1: Example
+Real sample from the dataset
+Premises (NL):
+1 Every student is understanding the material.
+2 Every student is asking questions.
+3 Every student is revising.
+Premises (FOL):∀xIsUnderstandingMaterial(x);∀xIsAskingQuestions(x);∀xIsRevising(x)
+Question:“Do all students both understand the material and ask questions, according to the
+premises?”
+Answer:Yes
+Explanation:Premise 1 states all students understand the material, and premise 2 states all
+students ask questions, so all students both understand the material and ask questions.
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 18 / 35
+Type 1: Key Challenges
+Reasoning Challenges
+Multi-step logical inference across
+multiple regulation clauses
+Handling negation and exceptions
+Distinguishing between “No” and
+“Uncertain” when information is
+incomplete
+Numerical comparisons embedded in
+natural language
+Explanation Challenges
+Generating FOL derivations that are
+correct and complete
+Producing human-readable explanations
+that match the formal proof
+Maintaining consistency between the
+answer and the explanation
+Citing specific premises used in reasoning
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 19 / 35
+Table of Contents
+1 Program Introduction
+2 Opening Remarks
+3 Competition Overview & Guidelines
+4 Dataset Type 1: Logic-Based Educational Queries
+5 Dataset Type 2: Physics Problems
+6 Suggested Approaches & Strategies
+7 Technical Demo
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 20 / 35
+Type 2: Problem Definition
+Objective
+Build a system that solvestext-based physics problemsfocusing on electric circuits and
+electrostatics, and providesstep-by-step Chain-of-Thought reasoningfor each solution.
+Why is this challenging?
+Problems require multi-step numerical computation
+Must correctly identify which physics formulas to apply
+Intermediate steps must be shown and logically connected
+Final answers must include correct units
+Open-source LLMs (8B parameters or fewer) often struggle with precise arithmetic
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 21 / 35
+Type 2: Dataset Format
+Statistics
+1,755 text-only physics problemscovering electric circuits and electrostatics.
+Average question length:38.9 words (median 34).
+Average CoT solution:113 words across∼4.7 reasoning steps.
+Coverage:77% include an explicit numerical final answer; 76% include the SI unit (55 distinct
+units overall, e.g. N, V/m, V, J,Ω, A, W,µF, nC).
+Each problem includes:
+Field Description
+Problem statement A physics question described in natural language
+Chain-of-Thought reasoning Step-by-step solution showing formulas, substitutions, and in-
+termediate results
+Final answer Numerical value
+Unit SI unit of the final answer (when applicable)
+Topics covered:Ohm’s law, Kirchhoff’s laws, series/parallel circuits, Coulomb’s law, electric
+field, electric potential, capacitance, and related concepts.
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 22 / 35
+Type 2: Example
+Real sample from the dataset (id: THCB078)
+Problem:“A parallel circuit hasR 1 = 30 Ω,R 2 = 60 Ω,U= 12V. Calculate the equivalent
+resistance.”
+Chain-of-Thought:
+1 Apply the parallel formula: R1 ·R 2
+R1 +R 2
+= 30·60
+30 + 60 = 1800
+90
+2 Result:20 Ω
+Answer:R td = 20.0Unit:Ω
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 23 / 35
+Type 2: Key Challenges
+Computation Challenges
+Multi-step arithmetic with fractions and
+decimals
+Correct formula selection from multiple
+candidates
+Unit conversions and consistency
+Handling edge cases (e.g., zero
+resistance, open circuits)
+Explanation Challenges
+Generating coherent Chain-of-Thought
+that a human can verify
+Showing intermediate values, not just
+the final answer
+Matching the reasoning depth expected
+by the evaluation criteria (P3)
+Balancing detail with clarity
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 24 / 35
+Table of Contents
+1 Program Introduction
+2 Opening Remarks
+3 Competition Overview & Guidelines
+4 Dataset Type 1: Logic-Based Educational Queries
+5 Dataset Type 2: Physics Problems
+6 Suggested Approaches & Strategies
+7 Technical Demo
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 25 / 35
+General Architecture
+A typical system for EXACT 2026 may combine:
+1 Natural Language Understanding:Parse the input query, identify question type (Type
+1 or Type 2), extract key entities and constraints
+2 Reasoning Engine:Apply logic-based or computation-based reasoning
+Type 1: Symbolic reasoning (e.g., Z3 Solver), FOL theorem proving
+Type 2: Equation solving, symbolic math, step-by-step computation
+3 Explanation Generation:Produce natural-language explanations aligned with the formal
+reasoning steps
+4 Answer Formatting:Structure the output in the required API format
+Note: This is one possible architecture. Any approach that produces accurate, explainable
+results is welcome.
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 26 / 35
+Approaches for Type 1 (Logic-Based)
+Symbolic Reasoning
+Convert NL premises to FOL using an
+LLM
+Feed FOL into a solver (Z3, Prover9,
+custom engine)
+Use solver output to generate
+explanations
+Pro:Provably correct answers
+Con:NL-to-FOL conversion is
+error-prone
+Neurosymbolic Hybrid
+Use LLM for understanding + symbolic
+engine for reasoning
+LLM generates candidate FOL, solver
+verifies
+Iterative refinement: if solver rejects,
+LLM re-generates
+Pro:Combines flexibility with rigor
+Con:More complex pipeline
+Pure LLM with Prompting
+Use Chain-of-Thought, few-shot examples, and self-consistency checks. Simpler to implement
+but may lack formal guarantees.
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 27 / 35
+Approaches for Type 2 (Physics)
+LLM + Code Execution
+LLM generates Python/SymPy code for
+computation
+Execute code to get precise numerical
+answers
+Use LLM to narrate the steps
+Pro:Precise arithmetic
+Con:Code generation errors
+Retrieval-Augmented Generation
+Build a knowledge base of physics
+formulas and solved examples
+Retrieve similar problems as few-shot
+examples
+LLM solves with retrieved context
+Pro:Leverages existing solutions
+Con:Limited by retrieval quality
+Practical Tips
+Fine-tune on the training data to adapt the LLM to the specific question format
+Use self-verification: have the model check its own answer by substituting back
+Ensemble multiple approaches and select the most consistent answer
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 28 / 35
+Recommended Open-Source Models
+Some open-source LLMs within the 8B parameter limit to consider:
+Model Parameters Strengths
+Llama 3.1 8B 8B Strong general reasoning
+Qwen 2.5 7B 7B Multilingual, math capabilities
+Phi-3 Mini 3.8B Compact, strong reasoning for size
+Mistral 7B 7B Fast inference, good code generation
+DeepSeek-R1-Distill 8B Distilled reasoning capabilities
+Note: Exact eligibility of borderline models (e.g., 8.19B) will be clarified during Q&A. The rule
+of thumb: nominal 8B-class models are accepted.
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 29 / 35
+Table of Contents
+1 Program Introduction
+2 Opening Remarks
+3 Competition Overview & Guidelines
+4 Dataset Type 1: Logic-Based Educational Queries
+5 Dataset Type 2: Physics Problems
+6 Suggested Approaches & Strategies
+7 Technical Demo
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 30 / 35
+Technical Demo: Overview
+In this demo, we will walk through:
+1 Dataset loading:How to read and parse the provided dataset files
+2 Input/Output format:The exact JSON schema for API requests and responses
+3 API usage:How to set up and test your API endpoint
+4 End-to-end pipeline:A simple baseline showing the full flow from query to answer
+Important
+All code examples and starter kits will be shared via the official repository after this workshop.
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 31 / 35
+Technical Demo: Input Format
+The official test set merges Type 1 and Type 2 queries into a unified stream. The system
+receives different fields depending on the query type.
+Type 1 input— question + natural-language premises:
+{
+"premises-NL": [
+"If a curriculum is well-structured ...",
+"..."
+],
+"question": "Based on the premises, ..."
+}
+Type 2 input— question only:
+{
+"question": "Calculate the energy stored in capacitor C ..."
+}
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 32 / 35
+Technical Demo: Output Format
+API Response (JSON)— onlyanswerandexplanationare mandatory; the optional fields
+contribute to the Reasoning Depth (P3) score.
+{
+// Required
+"answer": "B",
+"explanation": "The voltage across R2 is calculated using ...",
+// Optional (encouraged, boosts P3)
+"fol": "ForAll(x, Resistor(x) -> HasVoltage(x, V))",
+"cot": [
+"Step 1: Identify the circuit topology ...",
+"Step 2: Apply Kirchhoff’s voltage law ...",
+"Step 3: Solve for the unknown voltage ..."
+],
+"premises": [
+"Ohm’s law: V = IR",
+"KVL: sum of voltages in a loop = 0"
+],
+"confidence": 0.92
+}
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 33 / 35
+Technical Demo: Baseline Pipeline
+Input Query (JSON)
+Classify Query Type
+Type 1 Pipeline
+(FOL + Solver)
+Type 2 Pipeline
+(LLM + Code Exec)
+Generate Explanation
+API Response (JSON)
+EXACT 2026 Organizing Committee EXACT 2026 Workshop May 2026 34 / 35
+Thank You!
+Good luck to all participants
+/gl⌢behttps://ura.hcmut.edu.vn/exact
+/envel⌢peura.hcmut@gmail.com
+EXACT 2026 Organizing Committee

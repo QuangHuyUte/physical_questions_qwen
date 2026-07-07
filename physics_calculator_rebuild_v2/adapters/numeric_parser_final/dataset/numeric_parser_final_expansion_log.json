@@ -1,0 +1,1248 @@
+[
+  {
+    "id": "NPF_power_I_PR_000",
+    "formula_id": "current_from_power_resistance",
+    "answer": "3",
+    "unit": "A",
+    "question": "A resistor dissipates 72 W while its resistance is 8 ohm. What current flows through it?"
+  },
+  {
+    "id": "NPF_power_U_PR_000",
+    "formula_id": "voltage_from_power_resistance",
+    "answer": "24",
+    "unit": "V",
+    "question": "A load consumes 72 W and has resistance 8 ohm. Find the voltage across the load."
+  },
+  {
+    "id": "NPF_power_I_PR_001",
+    "formula_id": "current_from_power_resistance",
+    "answer": "3",
+    "unit": "A",
+    "question": "A resistor dissipates 45 W while its resistance is 5 ohm. What current flows through it?"
+  },
+  {
+    "id": "NPF_power_U_PR_001",
+    "formula_id": "voltage_from_power_resistance",
+    "answer": "15",
+    "unit": "V",
+    "question": "A load consumes 45 W and has resistance 5 ohm. Find the voltage across the load."
+  },
+  {
+    "id": "NPF_power_I_PR_002",
+    "formula_id": "current_from_power_resistance",
+    "answer": "2",
+    "unit": "A",
+    "question": "A resistor dissipates 128 W while its resistance is 32 ohm. What current flows through it?"
+  },
+  {
+    "id": "NPF_power_U_PR_002",
+    "formula_id": "voltage_from_power_resistance",
+    "answer": "64",
+    "unit": "V",
+    "question": "A load consumes 128 W and has resistance 32 ohm. Find the voltage across the load."
+  },
+  {
+    "id": "NPF_power_I_PR_003",
+    "formula_id": "current_from_power_resistance",
+    "answer": "2",
+    "unit": "A",
+    "question": "A resistor dissipates 200 W while its resistance is 50 ohm. What current flows through it?"
+  },
+  {
+    "id": "NPF_power_U_PR_003",
+    "formula_id": "voltage_from_power_resistance",
+    "answer": "100",
+    "unit": "V",
+    "question": "A load consumes 200 W and has resistance 50 ohm. Find the voltage across the load."
+  },
+  {
+    "id": "NPF_power_I_PR_004",
+    "formula_id": "current_from_power_resistance",
+    "answer": "7",
+    "unit": "A",
+    "question": "A resistor dissipates 98 W while its resistance is 2 ohm. What current flows through it?"
+  },
+  {
+    "id": "NPF_power_U_PR_004",
+    "formula_id": "voltage_from_power_resistance",
+    "answer": "14",
+    "unit": "V",
+    "question": "A load consumes 98 W and has resistance 2 ohm. Find the voltage across the load."
+  },
+  {
+    "id": "NPF_wire_R_000",
+    "formula_id": "wire_resistance_from_resistivity_length_area",
+    "answer": "0.22",
+    "unit": "ohm",
+    "question": "A uniform wire has resistivity 1.1e-06 ohm m, length 0.8 m, and cross-sectional area 4e-06 m2. Calculate its resistance."
+  },
+  {
+    "id": "NPF_wire_R_001",
+    "formula_id": "wire_resistance_from_resistivity_length_area",
+    "answer": "0.034",
+    "unit": "ohm",
+    "question": "A uniform wire has resistivity 1.7e-08 ohm m, length 2 m, and cross-sectional area 1e-06 m2. Calculate its resistance."
+  },
+  {
+    "id": "NPF_wire_R_002",
+    "formula_id": "wire_resistance_from_resistivity_length_area",
+    "answer": "0.07",
+    "unit": "ohm",
+    "question": "A uniform wire has resistivity 2.8e-08 ohm m, length 5 m, and cross-sectional area 2e-06 m2. Calculate its resistance."
+  },
+  {
+    "id": "NPF_wire_R_003",
+    "formula_id": "wire_resistance_from_resistivity_length_area",
+    "answer": "0.2",
+    "unit": "ohm",
+    "question": "A uniform wire has resistivity 5e-07 ohm m, length 1.2 m, and cross-sectional area 3e-06 m2. Calculate its resistance."
+  },
+  {
+    "id": "NPF_wire_R_004",
+    "formula_id": "wire_resistance_from_resistivity_length_area",
+    "answer": "0.36",
+    "unit": "ohm",
+    "question": "A uniform wire has resistivity 9e-07 ohm m, length 0.6 m, and cross-sectional area 1.5e-06 m2. Calculate its resistance."
+  },
+  {
+    "id": "NPF_cap_C_QU_000",
+    "formula_id": "capacitor_capacitance_from_charge_voltage",
+    "answer": "5",
+    "unit": "uF",
+    "question": "A capacitor carries charge 60 uC when the voltage across it is 12 V. Determine its capacitance."
+  },
+  {
+    "id": "NPF_cap_W_QU_000",
+    "formula_id": "capacitor_energy_from_Q_U",
+    "answer": "0.36",
+    "unit": "mJ",
+    "question": "A charged capacitor has charge 60 uC and voltage 12 V. Calculate the stored electric energy."
+  },
+  {
+    "id": "NPF_cap_C_QU_001",
+    "formula_id": "capacitor_capacitance_from_charge_voltage",
+    "answer": "5",
+    "unit": "uF",
+    "question": "A capacitor carries charge 25 uC when the voltage across it is 5 V. Determine its capacitance."
+  },
+  {
+    "id": "NPF_cap_W_QU_001",
+    "formula_id": "capacitor_energy_from_Q_U",
+    "answer": "0.0625",
+    "unit": "mJ",
+    "question": "A charged capacitor has charge 25 uC and voltage 5 V. Calculate the stored electric energy."
+  },
+  {
+    "id": "NPF_cap_C_QU_002",
+    "formula_id": "capacitor_capacitance_from_charge_voltage",
+    "answer": "6",
+    "unit": "uF",
+    "question": "A capacitor carries charge 180 uC when the voltage across it is 30 V. Determine its capacitance."
+  },
+  {
+    "id": "NPF_cap_W_QU_002",
+    "formula_id": "capacitor_energy_from_Q_U",
+    "answer": "2.7",
+    "unit": "mJ",
+    "question": "A charged capacitor has charge 180 uC and voltage 30 V. Calculate the stored electric energy."
+  },
+  {
+    "id": "NPF_cap_C_QU_003",
+    "formula_id": "capacitor_capacitance_from_charge_voltage",
+    "answer": "12",
+    "unit": "uF",
+    "question": "A capacitor carries charge 84 uC when the voltage across it is 7 V. Determine its capacitance."
+  },
+  {
+    "id": "NPF_cap_W_QU_003",
+    "formula_id": "capacitor_energy_from_Q_U",
+    "answer": "0.294",
+    "unit": "mJ",
+    "question": "A charged capacitor has charge 84 uC and voltage 7 V. Calculate the stored electric energy."
+  },
+  {
+    "id": "NPF_cap_C_QU_004",
+    "formula_id": "capacitor_capacitance_from_charge_voltage",
+    "answer": "3",
+    "unit": "uF",
+    "question": "A capacitor carries charge 150 uC when the voltage across it is 50 V. Determine its capacitance."
+  },
+  {
+    "id": "NPF_cap_W_QU_004",
+    "formula_id": "capacitor_energy_from_Q_U",
+    "answer": "3.75",
+    "unit": "mJ",
+    "question": "A charged capacitor has charge 150 uC and voltage 50 V. Calculate the stored electric energy."
+  },
+  {
+    "id": "NPF_cap_U_QC_000",
+    "formula_id": "capacitor_voltage_from_charge_capacitance",
+    "answer": "5",
+    "unit": "V",
+    "question": "The charge on a capacitor is 40 uC and its capacitance is 8 uF. What is the voltage?"
+  },
+  {
+    "id": "NPF_cap_W_QC_000",
+    "formula_id": "capacitor_energy_from_Q_C",
+    "answer": "0.1",
+    "unit": "mJ",
+    "question": "A capacitor stores charge 40 uC with capacitance 8 uF. Find its stored energy."
+  },
+  {
+    "id": "NPF_cap_U_QC_001",
+    "formula_id": "capacitor_voltage_from_charge_capacitance",
+    "answer": "20",
+    "unit": "V",
+    "question": "The charge on a capacitor is 120 uC and its capacitance is 6 uF. What is the voltage?"
+  },
+  {
+    "id": "NPF_cap_W_QC_001",
+    "formula_id": "capacitor_energy_from_Q_C",
+    "answer": "1.2",
+    "unit": "mJ",
+    "question": "A capacitor stores charge 120 uC with capacitance 6 uF. Find its stored energy."
+  },
+  {
+    "id": "NPF_cap_U_QC_002",
+    "formula_id": "capacitor_voltage_from_charge_capacitance",
+    "answer": "5",
+    "unit": "V",
+    "question": "The charge on a capacitor is 75 uC and its capacitance is 15 uF. What is the voltage?"
+  },
+  {
+    "id": "NPF_cap_W_QC_002",
+    "formula_id": "capacitor_energy_from_Q_C",
+    "answer": "0.1875",
+    "unit": "mJ",
+    "question": "A capacitor stores charge 75 uC with capacitance 15 uF. Find its stored energy."
+  },
+  {
+    "id": "NPF_cap_U_QC_003",
+    "formula_id": "capacitor_voltage_from_charge_capacitance",
+    "answer": "30",
+    "unit": "V",
+    "question": "The charge on a capacitor is 90 uC and its capacitance is 3 uF. What is the voltage?"
+  },
+  {
+    "id": "NPF_cap_W_QC_003",
+    "formula_id": "capacitor_energy_from_Q_C",
+    "answer": "1.35",
+    "unit": "mJ",
+    "question": "A capacitor stores charge 90 uC with capacitance 3 uF. Find its stored energy."
+  },
+  {
+    "id": "NPF_cap_U_QC_004",
+    "formula_id": "capacitor_voltage_from_charge_capacitance",
+    "answer": "5",
+    "unit": "V",
+    "question": "The charge on a capacitor is 55 uC and its capacitance is 11 uF. What is the voltage?"
+  },
+  {
+    "id": "NPF_cap_W_QC_004",
+    "formula_id": "capacitor_energy_from_Q_C",
+    "answer": "0.1375",
+    "unit": "mJ",
+    "question": "A capacitor stores charge 55 uC with capacitance 11 uF. Find its stored energy."
+  },
+  {
+    "id": "NPF_plate_C_eps_000",
+    "formula_id": "parallel_plate_capacitance_with_dielectric",
+    "answer": "177.084",
+    "unit": "pF",
+    "question": "A parallel-plate capacitor has dielectric constant 2.5, plate area 40 cm2, and separation 0.5 mm. Calculate its capacitance."
+  },
+  {
+    "id": "NPF_plate_C_eps_001",
+    "formula_id": "parallel_plate_capacitance_with_dielectric",
+    "answer": "442.709",
+    "unit": "pF",
+    "question": "A parallel-plate capacitor has dielectric constant 4, plate area 25 cm2, and separation 0.2 mm. Calculate its capacitance."
+  },
+  {
+    "id": "NPF_plate_C_eps_002",
+    "formula_id": "parallel_plate_capacitance_with_dielectric",
+    "answer": "212.501",
+    "unit": "pF",
+    "question": "A parallel-plate capacitor has dielectric constant 3.2, plate area 60 cm2, and separation 0.8 mm. Calculate its capacitance."
+  },
+  {
+    "id": "NPF_plate_C_eps_003",
+    "formula_id": "parallel_plate_capacitance_with_dielectric",
+    "answer": "318.751",
+    "unit": "pF",
+    "question": "A parallel-plate capacitor has dielectric constant 6, plate area 18 cm2, and separation 0.3 mm. Calculate its capacitance."
+  },
+  {
+    "id": "NPF_plate_C_eps_004",
+    "formula_id": "parallel_plate_capacitance_with_dielectric",
+    "answer": "119.532",
+    "unit": "pF",
+    "question": "A parallel-plate capacitor has dielectric constant 1.8, plate area 75 cm2, and separation 1 mm. Calculate its capacitance."
+  },
+  {
+    "id": "NPF_plate_E_Ud_000",
+    "formula_id": "parallel_plate_field_from_voltage_distance",
+    "answer": "4000",
+    "unit": "V/m",
+    "question": "Two parallel plates have a potential difference of 120 V and are separated by 3 cm. Find the electric field between them."
+  },
+  {
+    "id": "NPF_plate_E_Ud_001",
+    "formula_id": "parallel_plate_field_from_voltage_distance",
+    "answer": "9000",
+    "unit": "V/m",
+    "question": "Two parallel plates have a potential difference of 450 V and are separated by 5 cm. Find the electric field between them."
+  },
+  {
+    "id": "NPF_plate_E_Ud_002",
+    "formula_id": "parallel_plate_field_from_voltage_distance",
+    "answer": "4500",
+    "unit": "V/m",
+    "question": "Two parallel plates have a potential difference of 36 V and are separated by 0.8 cm. Find the electric field between them."
+  },
+  {
+    "id": "NPF_plate_E_Ud_003",
+    "formula_id": "parallel_plate_field_from_voltage_distance",
+    "answer": "50000",
+    "unit": "V/m",
+    "question": "Two parallel plates have a potential difference of 1000 V and are separated by 2 cm. Find the electric field between them."
+  },
+  {
+    "id": "NPF_plate_E_Ud_004",
+    "formula_id": "parallel_plate_field_from_voltage_distance",
+    "answer": "2000",
+    "unit": "V/m",
+    "question": "Two parallel plates have a potential difference of 24 V and are separated by 1.2 cm. Find the electric field between them."
+  },
+  {
+    "id": "NPF_ind_I_WL_000",
+    "formula_id": "inductor_current_from_energy_inductance",
+    "answer": "0.158114",
+    "unit": "A",
+    "question": "An inductor with inductance 0.5 H stores magnetic energy 6.25 mJ. What is the current?"
+  },
+  {
+    "id": "NPF_ind_I_WL_001",
+    "formula_id": "inductor_current_from_energy_inductance",
+    "answer": "0.3",
+    "unit": "A",
+    "question": "An inductor with inductance 0.4 H stores magnetic energy 18 mJ. What is the current?"
+  },
+  {
+    "id": "NPF_ind_I_WL_002",
+    "formula_id": "inductor_current_from_energy_inductance",
+    "answer": "0.126491",
+    "unit": "A",
+    "question": "An inductor with inductance 0.3 H stores magnetic energy 2.4 mJ. What is the current?"
+  },
+  {
+    "id": "NPF_ind_I_WL_003",
+    "formula_id": "inductor_current_from_energy_inductance",
+    "answer": "0.223607",
+    "unit": "A",
+    "question": "An inductor with inductance 2 H stores magnetic energy 50 mJ. What is the current?"
+  },
+  {
+    "id": "NPF_ind_I_WL_004",
+    "formula_id": "inductor_current_from_energy_inductance",
+    "answer": "0.0774597",
+    "unit": "A",
+    "question": "An inductor with inductance 0.6 H stores magnetic energy 1.8 mJ. What is the current?"
+  },
+  {
+    "id": "NPF_force_right_000",
+    "formula_id": "coulomb_force_right_angle_equal_charges",
+    "answer": "0.000173241",
+    "unit": "N",
+    "question": "Three equal charges of 7 nC occupy the corners of a right isosceles triangle. The charge at the right-angle corner is 6 cm from each of the other two charges. Find the net force on it."
+  },
+  {
+    "id": "NPF_force_equilateral_000",
+    "formula_id": "coulomb_force_equilateral_equal_charges",
+    "answer": "0.000212176",
+    "unit": "N",
+    "question": "Three equal positive charges of 7 nC are placed at the vertices of an equilateral triangle of side 6 cm. Find the resultant force on one charge."
+  },
+  {
+    "id": "NPF_force_right_001",
+    "formula_id": "coulomb_force_right_angle_equal_charges",
+    "answer": "4.97184e-05",
+    "unit": "N",
+    "question": "Three equal charges of 5 nC occupy the corners of a right isosceles triangle. The charge at the right-angle corner is 8 cm from each of the other two charges. Find the net force on it."
+  },
+  {
+    "id": "NPF_force_equilateral_001",
+    "formula_id": "coulomb_force_equilateral_equal_charges",
+    "answer": "6.08924e-05",
+    "unit": "N",
+    "question": "Three equal positive charges of 5 nC are placed at the vertices of an equilateral triangle of side 8 cm. Find the resultant force on one charge."
+  },
+  {
+    "id": "NPF_force_right_002",
+    "formula_id": "coulomb_force_right_angle_equal_charges",
+    "answer": "1.41421e-05",
+    "unit": "N",
+    "question": "Three equal charges of 4 nC occupy the corners of a right isosceles triangle. The charge at the right-angle corner is 12 cm from each of the other two charges. Find the net force on it."
+  },
+  {
+    "id": "NPF_force_equilateral_002",
+    "formula_id": "coulomb_force_equilateral_equal_charges",
+    "answer": "1.73205e-05",
+    "unit": "N",
+    "question": "Three equal positive charges of 4 nC are placed at the vertices of an equilateral triangle of side 12 cm. Find the resultant force on one charge."
+  },
+  {
+    "id": "NPF_force_right_003",
+    "formula_id": "coulomb_force_right_angle_equal_charges",
+    "answer": "0.000103096",
+    "unit": "N",
+    "question": "Three equal charges of 9 nC occupy the corners of a right isosceles triangle. The charge at the right-angle corner is 10 cm from each of the other two charges. Find the net force on it."
+  },
+  {
+    "id": "NPF_force_equilateral_003",
+    "formula_id": "coulomb_force_equilateral_equal_charges",
+    "answer": "0.000126267",
+    "unit": "N",
+    "question": "Three equal positive charges of 9 nC are placed at the vertices of an equilateral triangle of side 10 cm. Find the resultant force on one charge."
+  },
+  {
+    "id": "NPF_force_right_004",
+    "formula_id": "coulomb_force_right_angle_equal_charges",
+    "answer": "4.58205e-05",
+    "unit": "N",
+    "question": "Three equal charges of 3 nC occupy the corners of a right isosceles triangle. The charge at the right-angle corner is 5 cm from each of the other two charges. Find the net force on it."
+  },
+  {
+    "id": "NPF_force_equilateral_004",
+    "formula_id": "coulomb_force_equilateral_equal_charges",
+    "answer": "5.61184e-05",
+    "unit": "N",
+    "question": "Three equal positive charges of 3 nC are placed at the vertices of an equilateral triangle of side 5 cm. Find the resultant force on one charge."
+  },
+  {
+    "id": "NPF_field_two_angle_000",
+    "formula_id": "electric_field_two_charges_angle",
+    "answer": "6758.63",
+    "unit": "V/m",
+    "question": "At a point, charges 3 nC and 4 nC create electric-field directions separated by 60 degrees. Each charge is 9 cm from the point. Find the resultant electric field."
+  },
+  {
+    "id": "NPF_field_two_angle_001",
+    "formula_id": "electric_field_two_charges_angle",
+    "answer": "10140.6",
+    "unit": "V/m",
+    "question": "At a point, charges 6 nC and 2 nC create electric-field directions separated by 60 degrees. Each charge is 8 cm from the point. Find the resultant electric field."
+  },
+  {
+    "id": "NPF_field_two_angle_002",
+    "formula_id": "electric_field_two_charges_angle",
+    "answer": "7794.23",
+    "unit": "V/m",
+    "question": "At a point, charges 5 nC and 5 nC create electric-field directions separated by 60 degrees. Each charge is 10 cm from the point. Find the resultant electric field."
+  },
+  {
+    "id": "NPF_field_two_angle_003",
+    "formula_id": "electric_field_two_charges_angle",
+    "answer": "4718.65",
+    "unit": "V/m",
+    "question": "At a point, charges 7 nC and 1 nC create electric-field directions separated by 60 degrees. Each charge is 12 cm from the point. Find the resultant electric field."
+  },
+  {
+    "id": "NPF_field_two_angle_004",
+    "formula_id": "electric_field_two_charges_angle",
+    "answer": "22912.9",
+    "unit": "V/m",
+    "question": "At a point, charges 2 nC and 8 nC create electric-field directions separated by 60 degrees. Each charge is 6 cm from the point. Find the resultant electric field."
+  },
+  {
+    "id": "NPF_force_resultant_000",
+    "formula_id": "resultant_two_vectors_from_angle",
+    "answer": "13.8924",
+    "unit": "N",
+    "question": "Two forces of 7 N and 12 N act at right angles on the same object. What is the resultant force?"
+  },
+  {
+    "id": "NPF_field_resultant_000",
+    "formula_id": "electric_field_resultant_two_vectors_from_angle",
+    "answer": "1389.24",
+    "unit": "V/m",
+    "question": "Two perpendicular electric fields have magnitudes 700 V/m and 1200 V/m. Calculate the resultant electric field."
+  },
+  {
+    "id": "NPF_force_resultant_001",
+    "formula_id": "resultant_two_vectors_from_angle",
+    "answer": "41",
+    "unit": "N",
+    "question": "Two forces of 9 N and 40 N act at right angles on the same object. What is the resultant force?"
+  },
+  {
+    "id": "NPF_field_resultant_001",
+    "formula_id": "electric_field_resultant_two_vectors_from_angle",
+    "answer": "4100",
+    "unit": "V/m",
+    "question": "Two perpendicular electric fields have magnitudes 900 V/m and 4000 V/m. Calculate the resultant electric field."
+  },
+  {
+    "id": "NPF_force_resultant_002",
+    "formula_id": "resultant_two_vectors_from_angle",
+    "answer": "25",
+    "unit": "N",
+    "question": "Two forces of 15 N and 20 N act at right angles on the same object. What is the resultant force?"
+  },
+  {
+    "id": "NPF_field_resultant_002",
+    "formula_id": "electric_field_resultant_two_vectors_from_angle",
+    "answer": "2500",
+    "unit": "V/m",
+    "question": "Two perpendicular electric fields have magnitudes 1500 V/m and 2000 V/m. Calculate the resultant electric field."
+  },
+  {
+    "id": "NPF_force_resultant_003",
+    "formula_id": "resultant_two_vectors_from_angle",
+    "answer": "7.07107",
+    "unit": "N",
+    "question": "Two forces of 5 N and 5 N act at right angles on the same object. What is the resultant force?"
+  },
+  {
+    "id": "NPF_field_resultant_003",
+    "formula_id": "electric_field_resultant_two_vectors_from_angle",
+    "answer": "707.107",
+    "unit": "V/m",
+    "question": "Two perpendicular electric fields have magnitudes 500 V/m and 500 V/m. Calculate the resultant electric field."
+  },
+  {
+    "id": "NPF_force_resultant_004",
+    "formula_id": "resultant_two_vectors_from_angle",
+    "answer": "10",
+    "unit": "N",
+    "question": "Two forces of 6 N and 8 N act at right angles on the same object. What is the resultant force?"
+  },
+  {
+    "id": "NPF_field_resultant_004",
+    "formula_id": "electric_field_resultant_two_vectors_from_angle",
+    "answer": "1000",
+    "unit": "V/m",
+    "question": "Two perpendicular electric fields have magnitudes 600 V/m and 800 V/m. Calculate the resultant electric field."
+  },
+  {
+    "id": "NPF_XC_000",
+    "formula_id": "capacitive_reactance_from_C_f",
+    "answer": "318.31",
+    "unit": "ohm",
+    "question": "A capacitor of 10 uF is connected to an AC source of frequency 50 Hz. Find the capacitive reactance."
+  },
+  {
+    "id": "NPF_XC_001",
+    "formula_id": "capacitive_reactance_from_C_f",
+    "answer": "132.629",
+    "unit": "ohm",
+    "question": "A capacitor of 20 uF is connected to an AC source of frequency 60 Hz. Find the capacitive reactance."
+  },
+  {
+    "id": "NPF_XC_002",
+    "formula_id": "capacitive_reactance_from_C_f",
+    "answer": "63.662",
+    "unit": "ohm",
+    "question": "A capacitor of 2.5 uF is connected to an AC source of frequency 1000 Hz. Find the capacitive reactance."
+  },
+  {
+    "id": "NPF_XC_003",
+    "formula_id": "capacitive_reactance_from_C_f",
+    "answer": "44.2097",
+    "unit": "ohm",
+    "question": "A capacitor of 40 uF is connected to an AC source of frequency 90 Hz. Find the capacitive reactance."
+  },
+  {
+    "id": "NPF_XC_004",
+    "formula_id": "capacitive_reactance_from_C_f",
+    "answer": "79.5775",
+    "unit": "ohm",
+    "question": "A capacitor of 5 uF is connected to an AC source of frequency 400 Hz. Find the capacitive reactance."
+  },
+  {
+    "id": "NPF_rlc_I_000",
+    "formula_id": "rlc_series_current_from_U_R_XL_XC",
+    "answer": "2",
+    "unit": "A",
+    "question": "In a series RLC circuit, U = 100 V, R = 30 ohm, XL = 40 ohm, and XC = 0 ohm. Find the current."
+  },
+  {
+    "id": "NPF_rlc_P_000",
+    "formula_id": "rlc_series_power_from_U_R_XL_XC",
+    "answer": "120",
+    "unit": "W",
+    "question": "A series RLC circuit has U = 100 V, R = 30 ohm, XL = 40 ohm, and XC = 0 ohm. Calculate the average power consumed."
+  },
+  {
+    "id": "NPF_rlc_I_001",
+    "formula_id": "rlc_series_current_from_U_R_XL_XC",
+    "answer": "1.53644",
+    "unit": "A",
+    "question": "In a series RLC circuit, U = 120 V, R = 50 ohm, XL = 90 ohm, and XC = 30 ohm. Find the current."
+  },
+  {
+    "id": "NPF_rlc_P_001",
+    "formula_id": "rlc_series_power_from_U_R_XL_XC",
+    "answer": "118.033",
+    "unit": "W",
+    "question": "A series RLC circuit has U = 120 V, R = 50 ohm, XL = 90 ohm, and XC = 30 ohm. Calculate the average power consumed."
+  },
+  {
+    "id": "NPF_rlc_I_002",
+    "formula_id": "rlc_series_current_from_U_R_XL_XC",
+    "answer": "2.2",
+    "unit": "A",
+    "question": "In a series RLC circuit, U = 220 V, R = 80 ohm, XL = 100 ohm, and XC = 40 ohm. Find the current."
+  },
+  {
+    "id": "NPF_rlc_P_002",
+    "formula_id": "rlc_series_power_from_U_R_XL_XC",
+    "answer": "387.2",
+    "unit": "W",
+    "question": "A series RLC circuit has U = 220 V, R = 80 ohm, XL = 100 ohm, and XC = 40 ohm. Calculate the average power consumed."
+  },
+  {
+    "id": "NPF_rlc_I_003",
+    "formula_id": "rlc_series_current_from_U_R_XL_XC",
+    "answer": "1.34164",
+    "unit": "A",
+    "question": "In a series RLC circuit, U = 60 V, R = 20 ohm, XL = 50 ohm, and XC = 10 ohm. Find the current."
+  },
+  {
+    "id": "NPF_rlc_P_003",
+    "formula_id": "rlc_series_power_from_U_R_XL_XC",
+    "answer": "36",
+    "unit": "W",
+    "question": "A series RLC circuit has U = 60 V, R = 20 ohm, XL = 50 ohm, and XC = 10 ohm. Calculate the average power consumed."
+  },
+  {
+    "id": "NPF_rlc_I_004",
+    "formula_id": "rlc_series_current_from_U_R_XL_XC",
+    "answer": "1.87409",
+    "unit": "A",
+    "question": "In a series RLC circuit, U = 36 V, R = 12 ohm, XL = 20 ohm, and XC = 5 ohm. Find the current."
+  },
+  {
+    "id": "NPF_rlc_P_004",
+    "formula_id": "rlc_series_power_from_U_R_XL_XC",
+    "answer": "42.1463",
+    "unit": "W",
+    "question": "A series RLC circuit has U = 36 V, R = 12 ohm, XL = 20 ohm, and XC = 5 ohm. Calculate the average power consumed."
+  },
+  {
+    "id": "NPF_abs_from_rel_000",
+    "formula_id": "absolute_error_from_relative",
+    "answer": "0.2",
+    "unit": "m",
+    "question": "A measured value is 8 m and its relative error is 2.5 %. Find the absolute error."
+  },
+  {
+    "id": "NPF_abs_from_rel_001",
+    "formula_id": "absolute_error_from_relative",
+    "answer": "0.15",
+    "unit": "m",
+    "question": "A measured value is 12.5 m and its relative error is 1.2 %. Find the absolute error."
+  },
+  {
+    "id": "NPF_abs_from_rel_002",
+    "formula_id": "absolute_error_from_relative",
+    "answer": "0.5",
+    "unit": "m",
+    "question": "A measured value is 100 m and its relative error is 0.5 %. Find the absolute error."
+  },
+  {
+    "id": "NPF_abs_from_rel_003",
+    "formula_id": "absolute_error_from_relative",
+    "answer": "1.50012",
+    "unit": "m",
+    "question": "A measured value is 36 m and its relative error is 4.167 %. Find the absolute error."
+  },
+  {
+    "id": "NPF_abs_from_rel_004",
+    "formula_id": "absolute_error_from_relative",
+    "answer": "1",
+    "unit": "m",
+    "question": "A measured value is 20 m and its relative error is 5 %. Find the absolute error."
+  },
+  {
+    "id": "NPF_abs_least_000",
+    "formula_id": "absolute_error_from_least_count_half",
+    "answer": "0.1",
+    "unit": "cm",
+    "question": "A ruler has least count 0.2 cm. Using half the least count as uncertainty, find the absolute error."
+  },
+  {
+    "id": "NPF_abs_least_001",
+    "formula_id": "absolute_error_from_least_count_half",
+    "answer": "0.25",
+    "unit": "cm",
+    "question": "A ruler has least count 0.5 cm. Using half the least count as uncertainty, find the absolute error."
+  },
+  {
+    "id": "NPF_abs_least_002",
+    "formula_id": "absolute_error_from_least_count_half",
+    "answer": "0.5",
+    "unit": "cm",
+    "question": "A ruler has least count 1 cm. Using half the least count as uncertainty, find the absolute error."
+  },
+  {
+    "id": "NPF_abs_least_003",
+    "formula_id": "absolute_error_from_least_count_half",
+    "answer": "0.01",
+    "unit": "cm",
+    "question": "A ruler has least count 0.02 cm. Using half the least count as uncertainty, find the absolute error."
+  },
+  {
+    "id": "NPF_abs_least_004",
+    "formula_id": "absolute_error_from_least_count_half",
+    "answer": "0.05",
+    "unit": "cm",
+    "question": "A ruler has least count 0.1 cm. Using half the least count as uncertainty, find the absolute error."
+  },
+  {
+    "id": "NPF_omega_000",
+    "formula_id": "angular_frequency_from_frequency",
+    "answer": "157.08",
+    "unit": "rad/s",
+    "question": "An oscillator has frequency 25 Hz. Calculate its angular frequency."
+  },
+  {
+    "id": "NPF_omega_001",
+    "formula_id": "angular_frequency_from_frequency",
+    "answer": "314.159",
+    "unit": "rad/s",
+    "question": "An oscillator has frequency 50 Hz. Calculate its angular frequency."
+  },
+  {
+    "id": "NPF_omega_002",
+    "formula_id": "angular_frequency_from_frequency",
+    "answer": "376.991",
+    "unit": "rad/s",
+    "question": "An oscillator has frequency 60 Hz. Calculate its angular frequency."
+  },
+  {
+    "id": "NPF_omega_003",
+    "formula_id": "angular_frequency_from_frequency",
+    "answer": "2513.27",
+    "unit": "rad/s",
+    "question": "An oscillator has frequency 400 Hz. Calculate its angular frequency."
+  },
+  {
+    "id": "NPF_omega_004",
+    "formula_id": "angular_frequency_from_frequency",
+    "answer": "6283.19",
+    "unit": "rad/s",
+    "question": "An oscillator has frequency 1000 Hz. Calculate its angular frequency."
+  },
+  {
+    "id": "NPF_omega_005",
+    "formula_id": "angular_frequency_from_frequency",
+    "answer": "15708",
+    "unit": "rad/s",
+    "question": "An oscillator has frequency 2500 Hz. Calculate its angular frequency."
+  },
+  {
+    "id": "NPF_cap_series_000",
+    "formula_id": "capacitance_series",
+    "answer": "2.4",
+    "unit": "uF",
+    "question": "Two capacitors of 4 uF and 6 uF are connected in series. Find the equivalent capacitance."
+  },
+  {
+    "id": "NPF_cap_series_001",
+    "formula_id": "capacitance_series",
+    "answer": "6",
+    "unit": "uF",
+    "question": "Two capacitors of 10 uF and 15 uF are connected in series. Find the equivalent capacitance."
+  },
+  {
+    "id": "NPF_cap_series_002",
+    "formula_id": "capacitance_series",
+    "answer": "1.2",
+    "unit": "uF",
+    "question": "Two capacitors of 2 uF and 3 uF are connected in series. Find the equivalent capacitance."
+  },
+  {
+    "id": "NPF_cap_series_003",
+    "formula_id": "capacitance_series",
+    "answer": "20",
+    "unit": "uF",
+    "question": "Two capacitors of 30 uF and 60 uF are connected in series. Find the equivalent capacitance."
+  },
+  {
+    "id": "NPF_cap_series_004",
+    "formula_id": "capacitance_series",
+    "answer": "4.8",
+    "unit": "uF",
+    "question": "Two capacitors of 8 uF and 12 uF are connected in series. Find the equivalent capacitance."
+  },
+  {
+    "id": "NPF_cap_series_005",
+    "formula_id": "capacitance_series",
+    "answer": "4",
+    "unit": "uF",
+    "question": "Two capacitors of 5 uF and 20 uF are connected in series. Find the equivalent capacitance."
+  },
+  {
+    "id": "NPF_E_Fq_000",
+    "formula_id": "electric_field_from_force_charge",
+    "answer": "30000",
+    "unit": "V/m",
+    "question": "A charge of 4 uC experiences an electric force of 0.12 N. Determine the electric field strength."
+  },
+  {
+    "id": "NPF_E_Fq_001",
+    "formula_id": "electric_field_from_force_charge",
+    "answer": "50000",
+    "unit": "V/m",
+    "question": "A charge of 9 uC experiences an electric force of 0.45 N. Determine the electric field strength."
+  },
+  {
+    "id": "NPF_E_Fq_002",
+    "formula_id": "electric_field_from_force_charge",
+    "answer": "500000",
+    "unit": "V/m",
+    "question": "A charge of 5 uC experiences an electric force of 2.5 N. Determine the electric field strength."
+  },
+  {
+    "id": "NPF_E_Fq_003",
+    "formula_id": "electric_field_from_force_charge",
+    "answer": "400000",
+    "unit": "V/m",
+    "question": "A charge of 3 uC experiences an electric force of 1.2 N. Determine the electric field strength."
+  },
+  {
+    "id": "NPF_E_Fq_004",
+    "formula_id": "electric_field_from_force_charge",
+    "answer": "40000",
+    "unit": "V/m",
+    "question": "A charge of 2 uC experiences an electric force of 0.08 N. Determine the electric field strength."
+  },
+  {
+    "id": "NPF_E_Fq_005",
+    "formula_id": "electric_field_from_force_charge",
+    "answer": "300000",
+    "unit": "V/m",
+    "question": "A charge of 12 uC experiences an electric force of 3.6 N. Determine the electric field strength."
+  },
+  {
+    "id": "NPF_flux_solenoid_000",
+    "formula_id": "magnetic_flux_from_solenoid_area",
+    "answer": "1.00531e-06",
+    "unit": "Wb",
+    "question": "A long solenoid has turn density 800 turns/m, current 2 A, and cross-sectional area 5 cm2. Find the magnetic flux through one turn."
+  },
+  {
+    "id": "NPF_flux_solenoid_001",
+    "formula_id": "magnetic_flux_from_solenoid_area",
+    "answer": "1.80956e-06",
+    "unit": "Wb",
+    "question": "A long solenoid has turn density 1200 turns/m, current 1.5 A, and cross-sectional area 8 cm2. Find the magnetic flux through one turn."
+  },
+  {
+    "id": "NPF_flux_solenoid_002",
+    "formula_id": "magnetic_flux_from_solenoid_area",
+    "answer": "6.03186e-07",
+    "unit": "Wb",
+    "question": "A long solenoid has turn density 2000 turns/m, current 0.8 A, and cross-sectional area 3 cm2. Find the magnetic flux through one turn."
+  },
+  {
+    "id": "NPF_flux_solenoid_003",
+    "formula_id": "magnetic_flux_from_solenoid_area",
+    "answer": "5.65487e-06",
+    "unit": "Wb",
+    "question": "A long solenoid has turn density 1500 turns/m, current 3 A, and cross-sectional area 10 cm2. Find the magnetic flux through one turn."
+  },
+  {
+    "id": "NPF_flux_solenoid_004",
+    "formula_id": "magnetic_flux_from_solenoid_area",
+    "answer": "1.80956e-06",
+    "unit": "Wb",
+    "question": "A long solenoid has turn density 600 turns/m, current 4 A, and cross-sectional area 6 cm2. Find the magnetic flux through one turn."
+  },
+  {
+    "id": "NPF_flux_solenoid_005",
+    "formula_id": "magnetic_flux_from_solenoid_area",
+    "answer": "1.50796e-06",
+    "unit": "Wb",
+    "question": "A long solenoid has turn density 2500 turns/m, current 1.2 A, and cross-sectional area 4 cm2. Find the magnetic flux through one turn."
+  },
+  {
+    "id": "NPF_power_sum_000",
+    "formula_id": "power_total_sum",
+    "answer": "55",
+    "unit": "W",
+    "question": "Two devices dissipate 20 W and 35 W. What is their total power?"
+  },
+  {
+    "id": "NPF_power_sum_001",
+    "formula_id": "power_total_sum",
+    "answer": "30",
+    "unit": "W",
+    "question": "Two devices dissipate 12 W and 18 W. What is their total power?"
+  },
+  {
+    "id": "NPF_power_sum_002",
+    "formula_id": "power_total_sum",
+    "answer": "100",
+    "unit": "W",
+    "question": "Two devices dissipate 40 W and 60 W. What is their total power?"
+  },
+  {
+    "id": "NPF_power_sum_003",
+    "formula_id": "power_total_sum",
+    "answer": "20",
+    "unit": "W",
+    "question": "Two devices dissipate 5 W and 15 W. What is their total power?"
+  },
+  {
+    "id": "NPF_power_sum_004",
+    "formula_id": "power_total_sum",
+    "answer": "150",
+    "unit": "W",
+    "question": "Two devices dissipate 100 W and 50 W. What is their total power?"
+  },
+  {
+    "id": "NPF_power_sum_005",
+    "formula_id": "power_total_sum",
+    "answer": "20",
+    "unit": "W",
+    "question": "Two devices dissipate 7.5 W and 12.5 W. What is their total power?"
+  },
+  {
+    "id": "NPF_dR_UI_000",
+    "formula_id": "resistance_uncertainty_from_voltage_current",
+    "answer": "1",
+    "unit": "ohm",
+    "question": "A resistance is measured using U = 6 V with uncertainty 0.1 V and I = 0.3 A with uncertainty 0.01 A. Find the absolute uncertainty of R."
+  },
+  {
+    "id": "NPF_dR_UI_001",
+    "formula_id": "resistance_uncertainty_from_voltage_current",
+    "answer": "0.25",
+    "unit": "ohm",
+    "question": "A resistance is measured using U = 12 V with uncertainty 0.2 V and I = 2 A with uncertainty 0.05 A. Find the absolute uncertainty of R."
+  },
+  {
+    "id": "NPF_dR_UI_002",
+    "formula_id": "resistance_uncertainty_from_voltage_current",
+    "answer": "0.75",
+    "unit": "ohm",
+    "question": "A resistance is measured using U = 36 V with uncertainty 0.6 V and I = 2 A with uncertainty 0.05 A. Find the absolute uncertainty of R."
+  },
+  {
+    "id": "NPF_dR_UI_003",
+    "formula_id": "resistance_uncertainty_from_voltage_current",
+    "answer": "1.11111",
+    "unit": "ohm",
+    "question": "A resistance is measured using U = 9 V with uncertainty 0.1 V and I = 0.45 A with uncertainty 0.02 A. Find the absolute uncertainty of R."
+  },
+  {
+    "id": "NPF_dR_UI_004",
+    "formula_id": "resistance_uncertainty_from_voltage_current",
+    "answer": "1",
+    "unit": "ohm",
+    "question": "A resistance is measured using U = 24 V with uncertainty 0.4 V and I = 1.2 A with uncertainty 0.04 A. Find the absolute uncertainty of R."
+  },
+  {
+    "id": "NPF_dR_UI_005",
+    "formula_id": "resistance_uncertainty_from_voltage_current",
+    "answer": "1",
+    "unit": "ohm",
+    "question": "A resistance is measured using U = 18 V with uncertainty 0.3 V and I = 0.9 A with uncertainty 0.03 A. Find the absolute uncertainty of R."
+  },
+  {
+    "id": "NPF_I_PU_000",
+    "formula_id": "current_from_power_voltage",
+    "answer": "3",
+    "unit": "A",
+    "question": "An electrical device has power 90 W at voltage 30 V. Calculate the current."
+  },
+  {
+    "id": "NPF_I_PU_001",
+    "formula_id": "current_from_power_voltage",
+    "answer": "4",
+    "unit": "A",
+    "question": "An electrical device has power 48 W at voltage 12 V. Calculate the current."
+  },
+  {
+    "id": "NPF_I_PU_002",
+    "formula_id": "current_from_power_voltage",
+    "answer": "3",
+    "unit": "A",
+    "question": "An electrical device has power 150 W at voltage 50 V. Calculate the current."
+  },
+  {
+    "id": "NPF_I_PU_003",
+    "formula_id": "current_from_power_voltage",
+    "answer": "2.27273",
+    "unit": "A",
+    "question": "An electrical device has power 500 W at voltage 220 V. Calculate the current."
+  },
+  {
+    "id": "NPF_I_PU_004",
+    "formula_id": "current_from_power_voltage",
+    "answer": "4",
+    "unit": "A",
+    "question": "An electrical device has power 36 W at voltage 9 V. Calculate the current."
+  },
+  {
+    "id": "NPF_I_PU_005",
+    "formula_id": "current_from_power_voltage",
+    "answer": "4",
+    "unit": "A",
+    "question": "An electrical device has power 72 W at voltage 18 V. Calculate the current."
+  },
+  {
+    "id": "NPF_Z_RLC_000",
+    "formula_id": "series_ac_impedance_from_R_XL_XC",
+    "answer": "50",
+    "unit": "ohm",
+    "question": "A series RLC circuit has R = 30 ohm, XL = 40 ohm, and XC = 0 ohm. Calculate its impedance."
+  },
+  {
+    "id": "NPF_Z_RLC_001",
+    "formula_id": "series_ac_impedance_from_R_XL_XC",
+    "answer": "78.1025",
+    "unit": "ohm",
+    "question": "A series RLC circuit has R = 50 ohm, XL = 90 ohm, and XC = 30 ohm. Calculate its impedance."
+  },
+  {
+    "id": "NPF_Z_RLC_002",
+    "formula_id": "series_ac_impedance_from_R_XL_XC",
+    "answer": "100",
+    "unit": "ohm",
+    "question": "A series RLC circuit has R = 80 ohm, XL = 100 ohm, and XC = 40 ohm. Calculate its impedance."
+  },
+  {
+    "id": "NPF_Z_RLC_003",
+    "formula_id": "series_ac_impedance_from_R_XL_XC",
+    "answer": "44.7214",
+    "unit": "ohm",
+    "question": "A series RLC circuit has R = 20 ohm, XL = 50 ohm, and XC = 10 ohm. Calculate its impedance."
+  },
+  {
+    "id": "NPF_Z_RLC_004",
+    "formula_id": "series_ac_impedance_from_R_XL_XC",
+    "answer": "19.2094",
+    "unit": "ohm",
+    "question": "A series RLC circuit has R = 12 ohm, XL = 20 ohm, and XC = 5 ohm. Calculate its impedance."
+  },
+  {
+    "id": "NPF_Z_RLC_005",
+    "formula_id": "series_ac_impedance_from_R_XL_XC",
+    "answer": "84.8528",
+    "unit": "ohm",
+    "question": "A series RLC circuit has R = 60 ohm, XL = 75 ohm, and XC = 15 ohm. Calculate its impedance."
+  },
+  {
+    "id": "NPF_B_solenoid_Nl_000",
+    "formula_id": "solenoid_field_from_turns_length_current",
+    "answer": "0.00502655",
+    "unit": "T",
+    "question": "A solenoid has 500 turns over length 0.25 m and carries current 2 A. Find the magnetic field inside it."
+  },
+  {
+    "id": "NPF_B_solenoid_Nl_001",
+    "formula_id": "solenoid_field_from_turns_length_current",
+    "answer": "0.00376991",
+    "unit": "T",
+    "question": "A solenoid has 1200 turns over length 0.6 m and carries current 1.5 A. Find the magnetic field inside it."
+  },
+  {
+    "id": "NPF_B_solenoid_Nl_002",
+    "formula_id": "solenoid_field_from_turns_length_current",
+    "answer": "0.00753982",
+    "unit": "T",
+    "question": "A solenoid has 800 turns over length 0.4 m and carries current 3 A. Find the magnetic field inside it."
+  },
+  {
+    "id": "NPF_B_solenoid_Nl_003",
+    "formula_id": "solenoid_field_from_turns_length_current",
+    "answer": "0.0100531",
+    "unit": "T",
+    "question": "A solenoid has 300 turns over length 0.15 m and carries current 4 A. Find the magnetic field inside it."
+  },
+  {
+    "id": "NPF_B_solenoid_Nl_004",
+    "formula_id": "solenoid_field_from_turns_length_current",
+    "answer": "0.00201062",
+    "unit": "T",
+    "question": "A solenoid has 2000 turns over length 1 m and carries current 0.8 A. Find the magnetic field inside it."
+  },
+  {
+    "id": "NPF_B_solenoid_Nl_005",
+    "formula_id": "solenoid_field_from_turns_length_current",
+    "answer": "0.00942478",
+    "unit": "T",
+    "question": "A solenoid has 1500 turns over length 0.5 m and carries current 2.5 A. Find the magnetic field inside it."
+  },
+  {
+    "id": "NPF_faraday_000",
+    "formula_id": "faraday_emf_from_flux_change",
+    "answer": "0.6",
+    "unit": "V",
+    "question": "The magnetic flux changes from 0.006 Wb to 0 Wb in 0.01 s. Find the average induced emf."
+  },
+  {
+    "id": "NPF_faraday_001",
+    "formula_id": "faraday_emf_from_flux_change",
+    "answer": "0.5",
+    "unit": "V",
+    "question": "The magnetic flux changes from 0.02 Wb to 0.005 Wb in 0.03 s. Find the average induced emf."
+  },
+  {
+    "id": "NPF_faraday_002",
+    "formula_id": "faraday_emf_from_flux_change",
+    "answer": "1.5",
+    "unit": "V",
+    "question": "The magnetic flux changes from 0.001 Wb to 0.004 Wb in 0.002 s. Find the average induced emf."
+  },
+  {
+    "id": "NPF_faraday_003",
+    "formula_id": "faraday_emf_from_flux_change",
+    "answer": "0.2",
+    "unit": "V",
+    "question": "The magnetic flux changes from 0.12 Wb to 0.02 Wb in 0.5 s. Find the average induced emf."
+  },
+  {
+    "id": "NPF_faraday_004",
+    "formula_id": "faraday_emf_from_flux_change",
+    "answer": "0.4",
+    "unit": "V",
+    "question": "The magnetic flux changes from 0.0004 Wb to 0 Wb in 0.001 s. Find the average induced emf."
+  },
+  {
+    "id": "NPF_faraday_005",
+    "formula_id": "faraday_emf_from_flux_change",
+    "answer": "0.5",
+    "unit": "V",
+    "question": "The magnetic flux changes from 0.08 Wb to 0.03 Wb in 0.1 s. Find the average induced emf."
+  },
+  {
+    "id": "NPF_L_from_emf_000",
+    "formula_id": "inductance_from_emf_current_change",
+    "answer": "0.6",
+    "unit": "H",
+    "question": "A coil has induced emf 6 V when its current changes from 1 A to 3 A in 0.2 s. Find the inductance."
+  },
+  {
+    "id": "NPF_L_from_emf_001",
+    "formula_id": "inductance_from_emf_current_change",
+    "answer": "1.5",
+    "unit": "H",
+    "question": "A coil has induced emf 12 V when its current changes from 0 A to 4 A in 0.5 s. Find the inductance."
+  },
+  {
+    "id": "NPF_L_from_emf_002",
+    "formula_id": "inductance_from_emf_current_change",
+    "answer": "0.25",
+    "unit": "H",
+    "question": "A coil has induced emf 2.5 V when its current changes from 1.5 A to 0.5 A in 0.1 s. Find the inductance."
+  },
+  {
+    "id": "NPF_L_from_emf_003",
+    "formula_id": "inductance_from_emf_current_change",
+    "answer": "0.9",
+    "unit": "H",
+    "question": "A coil has induced emf 18 V when its current changes from 2 A to 8 A in 0.3 s. Find the inductance."
+  },
+  {
+    "id": "NPF_L_from_emf_004",
+    "formula_id": "inductance_from_emf_current_change",
+    "answer": "0.08",
+    "unit": "H",
+    "question": "A coil has induced emf 0.8 V when its current changes from 0.1 A to 0.5 A in 0.04 s. Find the inductance."
+  },
+  {
+    "id": "NPF_L_from_emf_005",
+    "formula_id": "inductance_from_emf_current_change",
+    "answer": "0.8",
+    "unit": "H",
+    "question": "A coil has induced emf 24 V when its current changes from 3 A to 9 A in 0.2 s. Find the inductance."
+  },
+  {
+    "id": "NPF_XL_000",
+    "formula_id": "inductive_reactance_from_L_f",
+    "answer": "37.6991",
+    "unit": "ohm",
+    "question": "An inductor of 0.1 H is used at frequency 60 Hz. Find the inductive reactance."
+  },
+  {
+    "id": "NPF_XL_001",
+    "formula_id": "inductive_reactance_from_L_f",
+    "answer": "78.5398",
+    "unit": "ohm",
+    "question": "An inductor of 0.25 H is used at frequency 50 Hz. Find the inductive reactance."
+  },
+  {
+    "id": "NPF_XL_002",
+    "formula_id": "inductive_reactance_from_L_f",
+    "answer": "223.053",
+    "unit": "ohm",
+    "question": "An inductor of 0.5 H is used at frequency 71 Hz. Find the inductive reactance."
+  },
+  {
+    "id": "NPF_XL_003",
+    "formula_id": "inductive_reactance_from_L_f",
+    "answer": "75.3982",
+    "unit": "ohm",
+    "question": "An inductor of 0.03 H is used at frequency 400 Hz. Find the inductive reactance."
+  },
+  {
+    "id": "NPF_XL_004",
+    "formula_id": "inductive_reactance_from_L_f",
+    "answer": "125.664",
+    "unit": "ohm",
+    "question": "An inductor of 0.8 H is used at frequency 25 Hz. Find the inductive reactance."
+  },
+  {
+    "id": "NPF_XL_005",
+    "formula_id": "inductive_reactance_from_L_f",
+    "answer": "12.5664",
+    "unit": "ohm",
+    "question": "An inductor of 0.002 H is used at frequency 1000 Hz. Find the inductive reactance."
+  },
+  {
+    "id": "NPF_flux_BS_000",
+    "formula_id": "magnetic_flux_from_B_area_angle",
+    "answer": "4.2e-07",
+    "unit": "Wb",
+    "question": "A flat coil surface of area 12 cm2 is aligned with a uniform magnetic field of 0.35 mT. Find the magnetic flux."
+  },
+  {
+    "id": "NPF_flux_BS_001",
+    "formula_id": "magnetic_flux_from_B_area_angle",
+    "answer": "6e-07",
+    "unit": "Wb",
+    "question": "A flat coil surface of area 3 cm2 is aligned with a uniform magnetic field of 2 mT. Find the magnetic flux."
+  },
+  {
+    "id": "NPF_flux_BS_002",
+    "formula_id": "magnetic_flux_from_B_area_angle",
+    "answer": "3e-06",
+    "unit": "Wb",
+    "question": "A flat coil surface of area 20 cm2 is aligned with a uniform magnetic field of 1.5 mT. Find the magnetic flux."
+  },
+  {
+    "id": "NPF_flux_BS_003",
+    "formula_id": "magnetic_flux_from_B_area_angle",
+    "answer": "1.2e-06",
+    "unit": "Wb",
+    "question": "A flat coil surface of area 15 cm2 is aligned with a uniform magnetic field of 0.8 mT. Find the magnetic flux."
+  },
+  {
+    "id": "NPF_flux_BS_004",
+    "formula_id": "magnetic_flux_from_B_area_angle",
+    "answer": "1e-06",
+    "unit": "Wb",
+    "question": "A flat coil surface of area 2 cm2 is aligned with a uniform magnetic field of 5 mT. Find the magnetic flux."
+  },
+  {
+    "id": "NPF_flux_BS_005",
+    "formula_id": "magnetic_flux_from_B_area_angle",
+    "answer": "6e-07",
+    "unit": "Wb",
+    "question": "A flat coil surface of area 50 cm2 is aligned with a uniform magnetic field of 0.12 mT. Find the magnetic flux."
+  }
+]

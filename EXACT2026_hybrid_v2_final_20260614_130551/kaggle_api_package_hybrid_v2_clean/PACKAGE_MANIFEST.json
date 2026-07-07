@@ -1,0 +1,10 @@
+{
+  "package": "kaggle_api_package_hybrid_v2_clean",
+  "base_model": "Qwen/Qwen2.5-3B-Instruct",
+  "lora_modules": [
+    "numeric_parser_final",
+    "trace_explainer_final",
+    "chlt_reasoner_final"
+  ],
+  "runtime_flow": "V1 deterministic fast path + V2 numeric parser/calculator fallback + CHLT reasoner"
+}

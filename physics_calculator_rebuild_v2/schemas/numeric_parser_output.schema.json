@@ -1,0 +1,36 @@
+{
+  "name": "numeric_parser_output",
+  "required": ["question_kind", "topic", "target", "givens", "constraints", "formula_candidates", "confidence"],
+  "forbidden": ["answer", "unit_answer", "python_code", "golden_code", "final_result", "cot"],
+  "properties": {
+    "question_kind": "calculation",
+    "topic": "string",
+    "target": {
+      "symbol": "string",
+      "role": "string",
+      "unit": "string",
+      "raw_span": "string"
+    },
+    "givens": [
+      {
+        "name": "string",
+        "role": "string",
+        "raw_span": "string",
+        "value_text": "string",
+        "unit_text": "string",
+        "sign": "positive|negative|unknown",
+        "qualifiers": ["string"]
+      }
+    ],
+    "constraints": ["string"],
+    "formula_candidates": [
+      {
+        "formula_id": "string",
+        "variable_map": "object",
+        "reason": "string"
+      }
+    ],
+    "confidence": "number"
+  }
+}
+

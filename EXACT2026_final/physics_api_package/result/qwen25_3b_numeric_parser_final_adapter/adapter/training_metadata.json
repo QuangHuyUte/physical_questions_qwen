@@ -1,0 +1,27 @@
+{
+  "base_model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter_purpose": "numeric_parser_final",
+  "train_rows": 1443,
+  "valid_rows": 220,
+  "max_seq_length": 1536,
+  "epochs": 3,
+  "learning_rate": 0.00015,
+  "required_output_keys": [
+    "confidence",
+    "constraints",
+    "formula_candidates",
+    "givens",
+    "question_kind",
+    "target",
+    "topic"
+  ],
+  "forbidden_output_keys": [
+    "answer",
+    "cot",
+    "final_result",
+    "golden_code",
+    "python_code",
+    "unit_answer"
+  ],
+  "saved_at": "2026-06-14 05:42:41"
+}
