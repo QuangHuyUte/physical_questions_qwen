@@ -13,7 +13,7 @@ WORKSPACE = ROOT.parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from src.calculator import solve_numeric_payload
+from physics_qwen.calculator import solve_numeric_payload
 
 
 SYSTEM_PROMPT = (
@@ -113,9 +113,9 @@ def normalize_question_key(question: Any) -> str:
 
 def load_cot_maps() -> tuple[dict[str, dict], dict[str, dict]]:
     sources = [
-        ("verified_golden_expanded", WORKSPACE / "current_submission_package" / "physics_api_package" / "data" / "verified_golden_expanded.csv"),
-        ("official_text", WORKSPACE / "datasets_raw_updates" / "Physics_Problems_Text_Only" / "Physics_Problems_Text_Only.csv"),
-        ("hybrid_verified", WORKSPACE / "hybrid_v2_final_package" / "kaggle_api_package_hybrid_v2_clean" / "data" / "verified_golden_expanded.csv"),
+        ("verified_golden_expanded", WORKSPACE / "submissions" / "current" / "physics_api_package" / "data" / "verified_golden_expanded.csv"),
+        ("official_text", WORKSPACE / "data" / "raw" / "Physics_Problems_Text_Only" / "Physics_Problems_Text_Only.csv"),
+        ("hybrid_verified", WORKSPACE / "releases" / "hybrid_v2_final" / "kaggle_api_package_hybrid_v2_clean" / "data" / "verified_golden_expanded.csv"),
     ]
     by_id: dict[str, dict] = {}
     by_question: dict[str, dict] = {}
@@ -351,7 +351,7 @@ def generate_locked_trace_explanation(question: str, solved: dict, style_index: 
 
 
 def build_rows() -> tuple[list[dict], list[dict], list[dict], dict[str, int]]:
-    numeric_path = WORKSPACE / "calculator_first_source" / "adapters" / "numeric_parser_final" / "dataset" / "numeric_parser_final_all.jsonl"
+    numeric_path = WORKSPACE / "src" / "adapters" / "numeric_parser_final" / "dataset" / "numeric_parser_final_all.jsonl"
     numeric_rows = read_jsonl(numeric_path)
     cot_by_id, cot_by_question = load_cot_maps()
     rows: list[dict] = []

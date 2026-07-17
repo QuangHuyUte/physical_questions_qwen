@@ -13,8 +13,8 @@ import sys
 
 sys.path.insert(0, str(ROOT))
 
-from src.calculator import solve_numeric_payload
-from src.payload_validator import validate_numeric_payload
+from physics_qwen.calculator import solve_numeric_payload
+from physics_qwen.payload_validator import validate_numeric_payload
 
 
 STRICT_SCHEMA_PROMPT = """
