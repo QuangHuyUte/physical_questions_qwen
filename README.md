@@ -1,6 +1,6 @@
-# Physical Questions Qwen
+# Physics Question Answering with Qwen
 
-**Physical Questions Qwen** is an **agentic calculator-first hybrid reasoning
+**Physics Question Answering with Qwen** is an **agentic calculator-first hybrid reasoning
 system** for physics question answering, developed for the EXACT 2026 workflow.
 The project combines deterministic physics solvers, schema-based validation,
 Qwen2.5-3B LoRA adapters, and rule-based routing to answer numerical and
@@ -145,13 +145,3 @@ python -m py_compile src/adapters/numeric_parser_final/build_numeric_parser_fina
 python -m py_compile src/adapters/trace_explainer_final/build_trace_explainer_final_dataset.py
 python -m py_compile src/adapters/chlt_reasoner_final/build_chlt_reasoner_final_dataset.py
 ```
-
-## Notes
-
-- The system is best described as **agentic calculator-first hybrid reasoning**.
-- It should only be called RAG if a retrieval module is actively used at
-  inference time.
-- Numerical answers should come from the verified calculator path whenever
-  possible.
-- LoRA adapters support extraction, routing, explanation, and conceptual
-  reasoning, but they should not override locked calculator results.
