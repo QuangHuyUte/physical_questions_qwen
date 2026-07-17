@@ -1,31 +1,43 @@
 # Physical Questions Qwen
 
-Calculator-first physics question answering system for the EXACT 2026 workflow,
-with Qwen2.5-3B LoRA adapters used for structured parsing, trace explanation,
-and conceptual reasoning.
+This repository contains a calculator-first physics question answering system
+developed for the EXACT 2026 workflow. The project combines deterministic
+physics calculation with Qwen2.5-3B LoRA adapters for semantic parsing,
+explanation generation, and conceptual reasoning.
 
-## Abstract
+The main goal is to answer physics questions reliably by letting the calculator
+own the final numeric answer, while the language model helps with understanding
+the question and explaining the locked result.
 
-This repository contains a cleaned research workspace for physics question
-answering. The central design is a hybrid pipeline: deterministic formula and
-unit handling are used whenever possible, while lightweight Qwen2.5-3B LoRA
-adapters provide structured semantic parsing, locked-trace explanations, and
-conceptual/CHLT-style reasoning. The repository is organized for academic
-inspection, reproducibility, and submission traceability rather than as a
-single monolithic model checkpoint.
+## Project Overview
 
-## Contributions
+The system is designed around a hybrid reasoning pipeline:
 
-- A calculator-first reasoning pipeline for numerical physics problems.
-- Verified formula-bank execution for final numeric answers and units.
-- LoRA adapter assets for `numeric_parser_final`, `trace_explainer_final`, and
-  `chlt_reasoner_final`.
-- Curated datasets, schema files, notebooks, submission artifacts, and reference
-  documents preserved in a clear research layout.
-- Explicit separation between source code, raw data, evaluation samples,
-  submission packages, and release artifacts.
+1. Parse the question and identify the physics topic.
+2. Extract quantities, units, targets, and constraints.
+3. Validate the structured payload with schemas and rules.
+4. Solve numerical questions using a verified formula bank.
+5. Generate explanations from the locked calculator trace.
+6. Route conceptual questions to a dedicated conceptual reasoner.
 
-## Repository Structure
+This design avoids relying on the language model to directly invent final
+numeric answers. Instead, the model extracts and explains; the calculator checks
+and computes.
+
+## Main Components
+
+- `physics_qwen`: core calculator package, including formula selection,
+  quantity parsing, payload validation, and final numeric solving.
+- `numeric_parser_final`: Qwen2.5-3B LoRA adapter for converting natural
+  physics questions into structured calculation payloads.
+- `trace_explainer_final`: LoRA adapter for explaining a verified calculator
+  trace without changing the answer, unit, formula, or calculation.
+- `chlt_reasoner_final`: LoRA adapter for conceptual and CHLT-style physics
+  questions.
+- `question_router`: lightweight routing data and notebook for separating
+  numeric and conceptual question paths.
+
+## Repository Layout
 
 ```text
 .
@@ -49,71 +61,75 @@ single monolithic model checkpoint.
 |   `-- current/                  # Current submission/export package
 |-- releases/
 |   `-- hybrid_v2_final/          # Final Hybrid V2 package and report
-`-- CITATION.cff                  # Citation metadata
+`-- README.md
 ```
 
-## Method Overview
+## Folder Guide
 
-The strongest maintained direction is the Hybrid V2 calculator-first system.
-It routes physics questions through deterministic parsing and verified formula
-execution before using language-model components for tasks that benefit from
-semantic interpretation or explanation.
+- `src/physics_qwen/`: reusable Python calculator and validation code.
+- `src/adapters/`: adapter datasets, training notebooks, exported adapter
+  metadata, and build scripts.
+- `src/schemas/`: JSON schemas used to keep adapter outputs predictable.
+- `data/raw/`: raw/update datasets used during development.
+- `docs/papers/`: supporting documents, papers, slides, and extracted notes.
+- `notebooks/type1/`: Type 1 API notebook work.
+- `tests/samples/`: small holdout and stress-test samples.
+- `scripts/`: standalone utility and evaluation scripts.
+- `submissions/current/`: current submission package kept for traceability.
+- `releases/hybrid_v2_final/`: final Hybrid V2 release package and report.
 
-The runtime components are:
+## Current Runtime Direction
 
-- `physics_qwen`: formula bank, quantity parsing, payload validation, and
-  deterministic calculation.
-- `numeric_parser_final`: Qwen2.5-3B LoRA adapter for structured extraction
-  when direct deterministic parsing is insufficient.
-- `trace_explainer_final`: LoRA adapter for explaining locked calculator
-  traces without changing answer, unit, formula, or calculation.
-- `chlt_reasoner_final`: LoRA adapter for conceptual physics and CHLT-style
-  questions.
+The strongest maintained system is `hybrid_v2_final`. Its preferred runtime
+flow is:
+
+```text
+question
+  -> deterministic fast path
+  -> numeric_parser_final, only when structured extraction is needed
+  -> physics_qwen calculator and formula bank
+  -> locked answer, unit, formula, and calculation
+  -> trace_explainer_final for explanation when needed
+```
+
+Conceptual questions are handled separately through `chlt_reasoner_final`.
 
 ## Data and Artifacts
 
-The repository keeps small and inspectable data files under version control.
-Large model weights, checkpoints, packaged archives, cache files, runtime URLs,
-and duplicated generated bundles are excluded through `.gitignore`.
+The repository tracks source code, datasets, notebooks, schemas, adapter
+configuration files, tokenizer metadata, and package documentation.
 
-Tracked adapter folders therefore contain configuration, tokenizer metadata,
-dataset files, and training metadata where available, but not heavyweight model
-weight files such as `.safetensors`, `.bin`, `.pt`, `.pth`, or `.ckpt`.
+Large model weights, checkpoints, zip bundles, cache files, runtime URLs, and
+duplicated generated outputs are intentionally ignored by Git. This keeps the
+repository readable while preserving the important project structure and
+metadata.
 
-## Reproducibility Notes
+## How To Inspect The Project
 
-1. Inspect source code and schemas under `src/`.
-2. Inspect raw/update data under `data/raw/`.
-3. Review adapter construction scripts under `src/adapters/*/`.
-4. Use `scripts/eval_holdout_stress.py` for the local holdout/stress utility.
-5. Use `submissions/current/` and `releases/hybrid_v2_final/` to trace the
-   exported submission packages.
+Start with these locations:
 
-The release and submission directories are preserved for auditability. They may
-contain deployment notebooks, PDF documentation, and package manifests generated
-during the EXACT 2026 workflow.
+- Core calculator logic: `src/physics_qwen/`
+- Adapter plan: `src/ADAPTERS.md`
+- Adapter build scripts: `src/adapters/*/build_*_dataset.py`
+- Dataset notes: `src/datasets/README.md`
+- Final package report: `releases/hybrid_v2_final/FINAL_PACKAGE_REPORT.md`
+- Current submission package: `submissions/current/`
 
-## Academic Use
+For a quick code-level check, the adapter dataset builders and calculator
+modules can be compiled with Python:
 
-This repository is a software and artifact release. When using or referring to
-it in academic work, cite the repository and describe the exact commit or release
-artifact used. If model weights are supplied separately, report their source,
-training configuration, and adapter version in the experimental setup.
-
-## Citation
-
-```bibtex
-@misc{bui2026physicalquestionsqwen,
-  title        = {Physical Questions Qwen: A Calculator-First Qwen2.5-3B LoRA System for Physics Question Answering},
-  author       = {Bui, Quang Huy},
-  year         = {2026},
-  howpublished = {\url{https://github.com/QuangHuyUte/physical_questions_qwen}},
-  note         = {EXACT 2026 physics question answering repository}
-}
+```bash
+python -m py_compile src/adapters/numeric_parser_final/build_numeric_parser_final_dataset.py
+python -m py_compile src/adapters/trace_explainer_final/build_trace_explainer_final_dataset.py
+python -m py_compile src/adapters/chlt_reasoner_final/build_chlt_reasoner_final_dataset.py
 ```
 
-## License
+## Notes
 
-No explicit open-source license has been declared in this repository yet.
-Contact the author before redistribution or reuse beyond inspection and
-academic reference.
+- The language adapters are not trusted to overwrite calculator results.
+- Numerical answers should come from the formula bank and verified calculation
+  path whenever possible.
+- Submission and release folders are kept to make the development history easy
+  to inspect.
+- Heavyweight training artifacts are kept outside Git and should be restored
+  separately when needed.
