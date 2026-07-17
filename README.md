@@ -1,60 +1,90 @@
 # Physical Questions Qwen
 
-**Physical Questions Qwen** is a Hybrid RAG and calculator-first physics
-question answering system developed for the EXACT 2026 workflow. The project
-combines deterministic physics computation, curated retrieval resources, and
-Qwen2.5-3B LoRA adapters to answer numerical and conceptual physics questions
-with traceable reasoning.
+**Physical Questions Qwen** is an **agentic calculator-first hybrid reasoning
+system** for physics question answering, developed for the EXACT 2026 workflow.
+The project combines deterministic physics solvers, schema-based validation,
+Qwen2.5-3B LoRA adapters, and rule-based routing to answer numerical and
+conceptual physics questions with traceable intermediate steps.
 
-The core idea is simple: the language model should understand, route, extract,
-and explain, while the verified calculator owns the final numerical answer,
-unit, formula, and calculation.
+The system is not designed to let a language model freely generate final
+numerical answers. Instead, the model helps understand the question, extract
+structured information, route the request, and explain the result, while the
+verified calculator owns the final answer, unit, formula, and calculation.
 
-## Overview
+## Core Idea
 
-The system follows a hybrid pipeline designed for reliability:
+The project follows an agentic pipeline: each module has a narrow role, and the
+runtime coordinates them as small reasoning agents. A question can move through
+different paths depending on whether it is numerical, conceptual, or requires
+repair after a failed parse.
 
-1. **Question understanding**: identify whether the input is numerical,
-   conceptual, or CHLT-style.
-2. **Hybrid RAG context**: use curated local resources, verified datasets,
-   formula knowledge, and submission artifacts as traceable context.
-3. **Structured extraction**: convert physics questions into validated payloads
-   containing topic, target, quantities, units, constraints, and formula hints.
-4. **Calculator-first solving**: compute final numerical answers through a
-   deterministic formula bank and unit-aware parser.
-5. **Locked-trace explanation**: generate explanations from the verified
-   calculator trace without changing the answer.
-6. **Conceptual reasoning**: route non-numerical questions to a dedicated
-   conceptual reasoner.
+- **Router** decides the question path.
+- **Parser adapter** extracts structured physics payloads.
+- **Validator** checks schema, quantities, units, and constraints.
+- **Calculator** selects formulas and computes locked numerical results.
+- **Explainer adapter** turns verified traces into readable explanations.
+- **Conceptual reasoner** handles non-numerical and CHLT-style questions.
 
-This setup reduces hallucinated calculations and keeps the final answer tied to
-auditable intermediate data.
+This makes the system easier to audit than a single end-to-end generative model.
 
-## Main Components
+## Pipeline Diagram
 
-| Component | Role |
-| --- | --- |
-| `physics_qwen` | Core calculator package for formula selection, quantity parsing, payload validation, and final numeric solving. |
-| `numeric_parser_final` | Qwen2.5-3B LoRA adapter that maps natural-language physics questions to structured calculation payloads. |
-| `trace_explainer_final` | LoRA adapter that explains locked calculator traces while preserving answer, unit, formula, and calculation. |
-| `chlt_reasoner_final` | LoRA adapter for conceptual and CHLT-style physics questions. |
-| `question_router` | Lightweight routing resources for separating numerical and conceptual paths. |
+```mermaid
+flowchart TD
+    A["Input physics question"] --> B["Question router"]
+
+    B --> C{"Question type?"}
+
+    C -->|Numerical / Type 2| D["Deterministic fast path"]
+    D --> E{"Enough structured data?"}
+
+    E -->|Yes| H["Schema and rule validation"]
+    E -->|No| F["numeric_parser_final<br/>Qwen2.5-3B LoRA"]
+    F --> G["Structured payload<br/>topic, target, givens, units, constraints"]
+    G --> H
+
+    H --> I{"Payload valid?"}
+    I -->|No| J["Repair / fallback parsing"]
+    J --> F
+    I -->|Yes| K["physics_qwen calculator"]
+
+    K --> L["Formula bank + unit-aware computation"]
+    L --> M["Locked answer, unit, formula, calculation"]
+    M --> N["trace_explainer_final<br/>locked-trace explanation"]
+    N --> O["Final numerical response"]
+
+    C -->|Conceptual / CHLT| P["chlt_reasoner_final<br/>conceptual reasoning"]
+    P --> Q["Final conceptual response"]
+```
 
 ## Runtime Flow
+
+For numerical questions, the preferred path is:
 
 ```text
 question
   -> route question type
-  -> retrieve/use curated context when needed
-  -> numeric_parser_final for structured extraction
-  -> schema and rule validation
-  -> physics_qwen calculator and formula bank
-  -> locked answer, unit, formula, and calculation
-  -> trace_explainer_final for final explanation
+  -> try deterministic fast path
+  -> use numeric_parser_final if extraction is incomplete
+  -> validate payload with schema and rules
+  -> solve with physics_qwen calculator and formula bank
+  -> lock answer, unit, formula, and calculation
+  -> explain with trace_explainer_final when needed
 ```
 
-Conceptual questions bypass the numeric calculator and are handled through
-`chlt_reasoner_final`.
+For conceptual questions, the system bypasses the calculator and routes the
+question to `chlt_reasoner_final`.
+
+## Main Components
+
+| Component | Purpose |
+| --- | --- |
+| `physics_qwen` | Core calculator package for formula selection, quantity parsing, payload validation, and final numerical solving. |
+| `numeric_parser_final` | LoRA adapter that converts natural-language physics questions into structured calculation payloads. |
+| `trace_explainer_final` | LoRA adapter that explains verified calculator traces without changing answer, unit, formula, or calculation. |
+| `chlt_reasoner_final` | LoRA adapter for conceptual, theory-based, and CHLT-style physics questions. |
+| `question_router` | Routing resources for separating numerical and conceptual paths. |
+| `schemas` | JSON schemas that constrain adapter outputs and make validation explicit. |
 
 ## Repository Layout
 
@@ -85,20 +115,21 @@ Conceptual questions bypass the numeric calculator and are handled through
 
 ## Important Paths
 
-- Core calculator: `src/physics_qwen/`
-- Adapter overview: `src/ADAPTERS.md`
-- Adapter builders: `src/adapters/*/build_*_dataset.py`
+- Core calculator logic: `src/physics_qwen/`
+- Adapter plan: `src/ADAPTERS.md`
+- Adapter dataset builders: `src/adapters/*/build_*_dataset.py`
+- Output schemas: `src/schemas/`
 - Dataset notes: `src/datasets/README.md`
-- Raw/update data: `data/raw/`
-- Reference material for Hybrid RAG context: `docs/papers/`
+- Raw/update datasets: `data/raw/`
+- Supporting papers and extracted notes: `docs/papers/`
 - Current submission package: `submissions/current/`
 - Final package report: `releases/hybrid_v2_final/FINAL_PACKAGE_REPORT.md`
 
 ## Data and Artifacts
 
-This repository keeps the parts needed to inspect the project structure:
-source code, adapter datasets, schemas, notebooks, tokenizer/config metadata,
-reports, and submission documents.
+This repository keeps source code, adapter datasets, schemas, notebooks,
+tokenizer/config metadata, reports, and submission documents so the project can
+be inspected without requiring every large training artifact.
 
 Large model weights, checkpoints, packaged zip bundles, cache files, runtime
 URLs, and duplicated generated outputs are intentionally excluded from Git.
@@ -117,9 +148,10 @@ python -m py_compile src/adapters/chlt_reasoner_final/build_chlt_reasoner_final_
 
 ## Notes
 
+- The system is best described as **agentic calculator-first hybrid reasoning**.
+- It should only be called RAG if a retrieval module is actively used at
+  inference time.
 - Numerical answers should come from the verified calculator path whenever
   possible.
-- LoRA adapters are used for extraction, routing, explanation, and conceptual
-  reasoning, not for blindly overriding calculator results.
-- `submissions/current/` and `releases/hybrid_v2_final/` are kept so the final
-  EXACT 2026 workflow remains easy to inspect.
+- LoRA adapters support extraction, routing, explanation, and conceptual
+  reasoning, but they should not override locked calculator results.
